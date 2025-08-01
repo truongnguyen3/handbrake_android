@@ -67,7 +67,7 @@ int strerror_r(int errnum, char *strerrbuf, size_t buflen)
         goto done;
     }
 
-    if (snprintf(strerrbuf, buflen, errstr) < 0)
+    if (snprintf(strerrbuf, buflen, "%s", errstr) < 0)
     {
         ret = EINVAL;
         goto done;

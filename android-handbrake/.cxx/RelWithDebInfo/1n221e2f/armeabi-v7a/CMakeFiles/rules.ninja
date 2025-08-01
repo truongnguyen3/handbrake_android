@@ -17,7 +17,7 @@
 rule C_COMPILER__handbrake-core_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__handbrake-core_RelWithDebInfo
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__handbrake-core_RelWithDebInfo
-  command = $PRE_LINK && /Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/cmake -E rm -f $TARGET_FILE && /Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib $TARGET_FILE && /Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/cmake -E rm -f $TARGET_FILE && /Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar qc $TARGET_FILE $LINK_FLAGS $in && /Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib $TARGET_FILE && /Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -36,7 +36,7 @@ rule C_STATIC_LIBRARY_LINKER__handbrake-core_RelWithDebInfo
 rule CXX_COMPILER__handbrake-android_RelWithDebInfo
   depfile = $DEP_FILE
   deps = gcc
-  command = /Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = /Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -44,7 +44,7 @@ rule CXX_COMPILER__handbrake-android_RelWithDebInfo
 # Rule for linking CXX shared library.
 
 rule CXX_SHARED_LIBRARY_LINKER__handbrake-android_RelWithDebInfo
-  command = $PRE_LINK && /Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/Users/truong.nguyen3/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --sysroot=/Users/jeremynguyen/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -61,7 +61,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/src/main/cpp -B/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a
+  command = /Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/cmake --regenerate-during-build -S/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp -B/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a
   description = Re-running CMake...
   generator = 1
 
@@ -70,7 +70,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/ninja $FILE_ARG -t clean $TARGETS
+  command = /Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -78,6 +78,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/ninja -t targets
+  command = /Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja -t targets
   description = All primary targets available:
 

@@ -1,0 +1,13 @@
+prefix=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: SvtAv1Enc
+Description: SVT (Scalable Video Technology) for AV1 encoder library
+Version: 3.1.0
+Requires.private: 
+Libs: -L${libdir} -lSvtAv1Enc
+Libs.private: 
+Cflags: -I${includedir}/svt-av1 -DEB_DLL
+Cflags.private: -UEB_DLL

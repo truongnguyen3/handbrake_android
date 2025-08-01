@@ -1,32 +1,32 @@
 {
   "buildFiles": [
-    "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/src/main/cpp/CMakeLists.txt"
+    "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
-      "/Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
       "-C",
-      "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a",
+      "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
-    "/Users/truong.nguyen3/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "/Users/jeremynguyen/Library/Android/sdk/cmake/3.22.1/bin/ninja",
     "-C",
-    "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a",
+    "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "handbrake-android::@6890427a1f51a3e7e1df": {
       "artifactName": "handbrake-android",
       "abi": "armeabi-v7a",
-      "output": "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/armeabi-v7a/libhandbrake-android.so",
+      "output": "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/armeabi-v7a/libhandbrake-android.so",
       "runtimeFiles": []
     },
     "handbrake-core::@6890427a1f51a3e7e1df": {
       "artifactName": "handbrake-core",
       "abi": "armeabi-v7a",
-      "output": "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a/libhandbrake-core.a",
+      "output": "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/armeabi-v7a/libhandbrake-core.a",
       "runtimeFiles": []
     }
   }

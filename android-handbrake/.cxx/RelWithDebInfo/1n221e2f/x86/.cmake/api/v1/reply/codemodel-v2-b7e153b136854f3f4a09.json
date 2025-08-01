@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "handbrake-android",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "handbrake-android::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbrake-android-RelWithDebInfo-93ebaa0025c0316cfb0f.json",
+					"name" : "handbrake-android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbrake-core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbrake-core-RelWithDebInfo-00da85954b9f429c0f3a.json",
+					"name" : "handbrake-core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86",
+		"source" : "/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

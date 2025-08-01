@@ -1,0 +1,10 @@
+prefix=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a
+exec_prefix=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a
+libdir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/lib
+includedir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.1.2
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

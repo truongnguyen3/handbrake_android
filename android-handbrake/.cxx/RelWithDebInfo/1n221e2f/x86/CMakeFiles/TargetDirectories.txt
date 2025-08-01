@@ -1,4 +1,4 @@
-/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/handbrake-core.dir
-/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/handbrake-android.dir
-/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/edit_cache.dir
-/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/rebuild_cache.dir
+/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/handbrake-core.dir
+/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/handbrake-android.dir
+/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/edit_cache.dir
+/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/x86/CMakeFiles/rebuild_cache.dir

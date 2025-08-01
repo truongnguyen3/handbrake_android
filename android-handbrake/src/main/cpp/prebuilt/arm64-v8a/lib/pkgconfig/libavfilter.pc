@@ -1,0 +1,14 @@
+prefix=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a
+exec_prefix=${prefix}
+libdir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/lib
+includedir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 11.3.100
+Requires: libswscale >= 9.0.100, libavformat >= 62.1.103, libavcodec >= 62.8.100, libswresample >= 6.0.100, libavutil >= 60.7.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -pthread -lm -latomic
+Libs.private: 
+Cflags: -I${includedir}

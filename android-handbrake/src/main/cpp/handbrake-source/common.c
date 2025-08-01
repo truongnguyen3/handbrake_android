@@ -4957,9 +4957,11 @@ hb_filter_object_t * hb_filter_get( int filter_id )
             filter = &hb_filter_chroma_smooth;
             break;
 
+#ifndef USE_HB_ANDROID
         case HB_FILTER_RENDER_SUB:
             filter = &hb_filter_render_sub;
             break;
+#endif
 
         case HB_FILTER_RPU:
             filter = &hb_filter_rpu;

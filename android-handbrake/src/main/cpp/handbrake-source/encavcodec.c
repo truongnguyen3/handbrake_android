@@ -1602,7 +1602,11 @@ static int apply_encoder_level(AVCodecContext *context, AVDictionary **av_opts, 
             break;
     }
 
+#ifdef FF_LEVEL_UNKNOWN
     context->level = FF_LEVEL_UNKNOWN;
+#else
+    context->level = -99;  // Use fallback value for older FFmpeg versions
+#endif
 
     if (level_names == NULL || level_values == NULL)
     {

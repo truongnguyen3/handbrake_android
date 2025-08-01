@@ -217,7 +217,7 @@ void          hb_fifo_flush( hb_fifo_t * f );
 
 static inline int hb_image_stride( int pix_fmt, int width, int plane )
 {
-    int linesize = av_image_get_linesize( pix_fmt, width, plane );
+    int linesize = av_image_get_linesize( (enum AVPixelFormat)pix_fmt, width, plane );
 
     // Make buffer SIMD friendly.
     // Zscale requires stride aligned to 64 bytes
@@ -227,7 +227,7 @@ static inline int hb_image_stride( int pix_fmt, int width, int plane )
 
 static inline int hb_image_width(int pix_fmt, int width, int plane)
 {
-    const AVPixFmtDescriptor *desc = av_pix_fmt_desc_get(pix_fmt);
+    const AVPixFmtDescriptor *desc = av_pix_fmt_desc_get((enum AVPixelFormat)pix_fmt);
 
     if (desc != NULL && (plane == 1 || plane == 2))
     {
@@ -240,7 +240,7 @@ static inline int hb_image_width(int pix_fmt, int width, int plane)
 
 static inline int hb_image_height(int pix_fmt, int height, int plane)
 {
-    const AVPixFmtDescriptor *desc = av_pix_fmt_desc_get(pix_fmt);
+    const AVPixFmtDescriptor *desc = av_pix_fmt_desc_get((enum AVPixelFormat)pix_fmt);
 
     if (desc != NULL && (plane == 1 || plane == 2))
     {
@@ -251,7 +251,7 @@ static inline int hb_image_height(int pix_fmt, int height, int plane)
     return height;
 }
 
-static inline void hb_image_copy_plane(uint8_t *restrict dst, const uint8_t *restrict src,
+static inline void hb_image_copy_plane(uint8_t *dst, const uint8_t *src,
                                        const int stride_dst, const int stride_src, const int height)
 {
     if (src != dst)

@@ -502,7 +502,12 @@ static int send(hb_work_object_t *w, hb_buffer_t *in)
                 av_freep(&payload);
             }
             else if (job->passthru_dynamic_hdr_metadata & HB_HDR_DYNAMIC_METADATA_DOVI &&
-                     side_data->type == AV_FRAME_DATA_DOVI_RPU_BUFFER_T35)
+#ifdef AV_FRAME_DATA_DOVI_RPU_BUFFER_T35
+                     side_data->type == AV_FRAME_DATA_DOVI_RPU_BUFFER_T35
+#else
+                     side_data->type == AV_FRAME_DATA_DOVI_RPU_BUFFER
+#endif
+                     )
             {
                 svt_add_metadata(headerPtr, EB_AV1_METADATA_TYPE_ITUT_T35, side_data->data, side_data->size);
             }

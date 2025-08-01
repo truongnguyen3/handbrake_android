@@ -1,0 +1,14 @@
+prefix=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a
+exec_prefix=${prefix}
+libdir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/lib
+includedir=/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/src/main/cpp/prebuilt/arm64-v8a/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 9.0.100
+Requires: libavutil >= 60.7.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm -latomic
+Libs.private: 
+Cflags: -I${includedir}

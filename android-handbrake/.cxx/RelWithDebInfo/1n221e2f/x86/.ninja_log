@@ -1,7 +1,11 @@
 # ninja log v5
-1	98	1754045898086758860	CMakeFiles/handbrake-core.dir/handbrake-source/colormap.c.o	e589f5334f645f6e
-0	107	1754045898100721460	CMakeFiles/handbrake-core.dir/handbrake-source/lang.c.o	d21c8a9c9e18a5a6
-1	123	1754045898118165294	CMakeFiles/handbrake-android.dir/jni/handbrake_bridge_minimal.cpp.o	c3e35ac5a1c92ea2
-107	165	1754045898167293000	libhandbrake-core.a	597830a2bf1ca22c
-1	239	1754045898235584636	CMakeFiles/handbrake-android.dir/jni/handbrake_jni.cpp.o	86486d48f5f09e61
-240	306	1754045898305681055	/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/x86/libhandbrake-android.so	916d72178a16c471
+0	6	0	clean	b85f835400dced2d
+0	46	1754067743000000000	build.ninja	c4fb7f3277dcbb9a
+0	38	1754054262000000000	CMakeFiles/handbrake-core.dir/handbrake-source/colormap.c.o	27a8498df34943bc
+0	55	1754054262000000000	CMakeFiles/handbrake-core.dir/handbrake-source/lang.c.o	f25258a90e46b39c
+0	61	1754054262000000000	CMakeFiles/handbrake-android.dir/jni/handbrake_bridge_minimal.cpp.o	a035ae98c26e8188
+56	88	1754054262000000000	libhandbrake-core.a	9dcbbb95558ef388
+158	211	1754054262000000000	/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/x86/libhandbrake-android.so	584e99d42bcb6a0f
+0	158	1754054262000000000	CMakeFiles/handbrake-android.dir/jni/handbrake_jni.cpp.o	b5eba5af170d9835
+0	69	1754067743000000000	build.ninja	c4fb7f3277dcbb9a
+0	15	0	clean	b85f835400dced2d

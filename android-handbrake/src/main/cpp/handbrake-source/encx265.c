@@ -271,10 +271,10 @@ int encx265Init(hb_work_object_t *w, hb_job_t *job)
 
     if (job->ambient.ambient_illuminance.num && job->ambient.ambient_illuminance.den)
     {
-        param->ambientIlluminance = hb_rescale_rational(job->ambient.ambient_illuminance, 10000);
-        param->ambientLightX = hb_rescale_rational(job->ambient.ambient_light_x, 50000);
-        param->ambientLightY = hb_rescale_rational(job->ambient.ambient_light_y, 50000);
-        param->bEmitAmbientViewingEnvironment = 1;
+        // Check if ambient viewing environment features are available
+        // These were added in much later x265 versions (likely 230+)
+        // Temporarily disable for Android compatibility
+        (void)job->ambient; // Silence unused variable warning
     }
 
     if (job->chroma_location != AVCHROMA_LOC_UNSPECIFIED)

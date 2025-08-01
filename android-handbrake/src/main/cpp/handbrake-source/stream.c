@@ -16,7 +16,9 @@
 #include "handbrake/hbffmpeg.h"
 #include "handbrake/lang.h"
 #include "handbrake/extradata.h"
+#if HB_PROJECT_FEATURE_LIBBLURAY
 #include "libbluray/bluray.h"
+#endif
 #include "libavutil/parseutils.h"
 
 #define min(a, b) a < b ? a : b

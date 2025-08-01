@@ -1322,7 +1322,11 @@ static hb_buffer_t *copy_frame( hb_work_private_t *pv )
 
             if (sd == NULL)
             {
+#ifdef AV_FRAME_DATA_DOVI_RPU_BUFFER_T35
                 type = AV_FRAME_DATA_DOVI_RPU_BUFFER_T35;
+#else
+                type = AV_FRAME_DATA_DOVI_RPU_BUFFER;  // Fallback for older FFmpeg
+#endif
                 sd = av_frame_get_side_data(pv->frame, type);
             }
 

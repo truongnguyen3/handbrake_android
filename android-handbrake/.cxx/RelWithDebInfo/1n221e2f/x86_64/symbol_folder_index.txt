@@ -1,1 +1,1 @@
-/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/x86_64
+/Volumes/KINGSTON/_kingston_misc/handbrake_android/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/x86_64

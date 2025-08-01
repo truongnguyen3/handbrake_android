@@ -1,0 +1,69 @@
+# CMake minimum version
+cmake_minimum_required(VERSION 3.18.1)
+
+# Project name
+project(handbrake-android)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find required packages
+find_library(log-lib log)
+find_library(android-lib android)
+
+# Include directories
+set(HANDBRAKE_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../../../..)
+set(PREBUILT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/prebuilt/${ANDROID_ABI})
+
+include_directories(
+    ${HANDBRAKE_ROOT}/libhb
+    ${HANDBRAKE_ROOT}/libhb/handbrake
+    ${HANDBRAKE_ROOT}/contrib/jansson
+    ${CMAKE_CURRENT_SOURCE_DIR}/jni
+    ${PREBUILT_DIR}/include
+)
+
+# JNI source files
+set(JNI_SOURCES
+    jni/handbrake_bridge.cpp
+    jni/handbrake_jni.cpp
+)
+
+# MINIMAL HandBrake sources for testing
+set(HANDBRAKE_SOURCES
+    ${HANDBRAKE_ROOT}/libhb/lang.c
+    ${HANDBRAKE_ROOT}/libhb/colormap.c
+    ${HANDBRAKE_ROOT}/libhb/hb.c
+    ${HANDBRAKE_ROOT}/libhb/common.c
+)
+
+# Create static library for HandBrake core
+add_library(handbrake-core STATIC ${HANDBRAKE_SOURCES})
+
+# Create the JNI shared library
+add_library(handbrake-android SHARED ${JNI_SOURCES})
+
+# Link libraries - minimal configuration for testing
+target_link_libraries(handbrake-android
+    handbrake-core
+    ${log-lib}
+    ${android-lib}
+    z
+    m
+)
+
+# Preprocessor definitions - minimal for testing
+target_compile_definitions(handbrake-core PRIVATE
+    __LIBHB__
+    ANDROID
+    USE_PTHREAD
+    HB_VERSION_MAJOR=1
+    HB_VERSION_MINOR=8
+    HB_VERSION_POINT=0
+)
+
+target_compile_definitions(handbrake-android PRIVATE
+    __LIBHB__
+    ANDROID
+)

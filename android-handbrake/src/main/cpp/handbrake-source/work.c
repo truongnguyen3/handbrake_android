@@ -1074,6 +1074,7 @@ static int sanitize_subtitles( hb_job_t * job )
     }
     if (one_burned)
     {
+#ifndef USE_HB_ANDROID
         // Add subtitle rendering filter
         // Note that if the filter is already in the filter chain, this
         // has no effect. Note also that this means the front-end is
@@ -1081,6 +1082,7 @@ static int sanitize_subtitles( hb_job_t * job )
         // we will always try to do it here.
         hb_filter_object_t *filter = hb_filter_init(HB_FILTER_RENDER_SUB);
         hb_add_filter_dict(job, filter, NULL);
+#endif
     }
 
     return 0;
