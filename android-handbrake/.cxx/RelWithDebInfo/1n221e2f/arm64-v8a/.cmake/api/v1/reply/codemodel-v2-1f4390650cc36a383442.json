@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "handbrake-android",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "handbrake-android::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbrake-android-RelWithDebInfo-db362bf3e9d6267d1f77.json",
+					"name" : "handbrake-android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "handbrake-core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-handbrake-core-RelWithDebInfo-dda2b8df81c5f3947026.json",
+					"name" : "handbrake-core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/arm64-v8a",
+		"source" : "/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

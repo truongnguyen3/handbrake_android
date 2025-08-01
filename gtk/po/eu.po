@@ -1,0 +1,3692 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025 HandBrake Team
+# This file is distributed under the same license as the ghb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# arrakala EuskalEncodings, 2025
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ghb 20241116-git-41d7e1d69\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-16 19:27+0000\n"
+"PO-Revision-Date: 2018-10-10 18:14+0000\n"
+"Last-Translator: arrakala EuskalEncodings, 2025\n"
+"Language-Team: Basque (https://app.transifex.com/HandBrakeProject/teams/92423/eu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ui/menu.ui:6
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: src/ui/menu.ui:10 src/ui/menu.ui:456
+msgid "_Open Source…"
+msgstr "_Ireki iturburua…"
+
+#: src/ui/menu.ui:14 src/ui/menu.ui:460
+msgid "Open _Directory…"
+msgstr "Ireki _Direktorioa…"
+
+#: src/ui/menu.ui:18 src/ui/menu.ui:176
+msgid "_Set Destination…"
+msgstr "_Ezarri helmuga..."
+
+#: src/ui/menu.ui:26 src/ui/menu.ui:196
+msgid "_Preferences"
+msgstr "_Hobespenak"
+
+#. Toss up a warning dialog
+#: src/ui/menu.ui:30 src/ui/menu.ui:210 src/callbacks.c:3820
+msgid "_Quit"
+msgstr "_Irten"
+
+#: src/ui/menu.ui:35 src/ui/menu.ui:80
+msgid "_Queue"
+msgstr "_Ilara"
+
+#: src/ui/menu.ui:39
+msgid "_Add"
+msgstr "_Gehitu"
+
+#: src/ui/menu.ui:43 src/ui/menu.ui:443
+msgid "Add _Multiple…"
+msgstr "Gehitu _Anitz…"
+
+#: src/ui/menu.ui:47 src/ui/menu.ui:447
+msgid "Add A_ll"
+msgstr "Gehitu A_ll"
+
+#: src/ui/menu.ui:53 src/queuehandler.c:1870
+msgid "_Start Encoding"
+msgstr "_Hasi"
+
+#: src/ui/menu.ui:57 src/queuehandler.c:1913
+msgid "_Pause Encoding"
+msgstr "_Pausatu"
+
+#: src/ui/menu.ui:63 src/ui/menu.ui:182 src/ui/menu.ui:334
+msgid "_Import Queue…"
+msgstr "_Inportatu ilara…"
+
+#: src/ui/menu.ui:67 src/ui/menu.ui:186 src/ui/menu.ui:338
+msgid "_Export Queue…"
+msgstr "_Esportatu ilara…"
+
+#: src/ui/menu.ui:72
+msgid "_View"
+msgstr "_Ikusi"
+
+#: src/ui/menu.ui:76
+msgid "Presets _List"
+msgstr "Aurrezarpenen zerrenda"
+
+#: src/ui/menu.ui:84
+msgid "_Preview"
+msgstr "_Aurrebista"
+
+#: src/ui/menu.ui:88 src/ui/menu.ui:192
+msgid "_Activity Window"
+msgstr "_Prozesuaren leihoa"
+
+#: src/ui/menu.ui:93
+msgid "_Presets"
+msgstr "_Aurrezarpenak"
+
+#: src/ui/menu.ui:97 src/ui/menu.ui:219 src/ui/menu.ui:262
+msgid "Set De_fault"
+msgstr "Ezarri lehenetsia"
+
+#: src/ui/menu.ui:103 src/ui/menu.ui:225
+msgid "_New Preset…"
+msgstr "_Aurrezarpen berria…"
+
+#: src/ui/menu.ui:107 src/ui/menu.ui:229 src/ui/menu.ui:268 src/ui/ghb.ui:6038
+#: src/ui/ghb.ui:6128 src/callbacks.c:2141 src/chapters.c:455
+#: src/ghb-file-button.c:219 src/presets.c:2331 src/queuehandler.c:1386
+msgid "_Save"
+msgstr "_Gorde"
+
+#: src/ui/menu.ui:111 src/ui/menu.ui:233 src/ui/menu.ui:272
+msgid "_Rename…"
+msgstr "_Berrizendatu…"
+
+#: src/ui/menu.ui:115 src/ui/menu.ui:237 src/ui/menu.ui:276
+msgid "_Delete…"
+msgstr "_Ezabatu…"
+
+#: src/ui/menu.ui:121 src/ui/menu.ui:243
+msgid "_Import Preset…"
+msgstr "_Inportatu Aurrezarpena…"
+
+#: src/ui/menu.ui:125 src/ui/menu.ui:247 src/ui/menu.ui:282
+msgid "_Export Preset…"
+msgstr "_Esportatu Aurrezarpena…"
+
+#: src/ui/menu.ui:131 src/ui/menu.ui:253
+msgid "Reset _Built-in Presets"
+msgstr "Leheneratu ezarpenak"
+
+#: src/ui/menu.ui:140 src/ui/menu.ui:200
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: src/ui/menu.ui:144
+msgid "_Online Documentation"
+msgstr "_Online Dokumentazioa"
+
+#: src/ui/menu.ui:148
+msgid "_About"
+msgstr "Honi buruz"
+
+#: src/ui/menu.ui:158
+msgid "HandBrake For _Dummies"
+msgstr "HandBrake mozoloentzat"
+
+#: src/ui/menu.ui:204
+msgid "A_bout HandBrake"
+msgstr "HandBrake-ri buruz"
+
+#: src/ui/menu.ui:290 src/ui/menu.ui:369
+msgid "_Play File"
+msgstr "_Erreproduzitu fitxategia"
+
+#: src/ui/menu.ui:294 src/ui/menu.ui:373
+msgid "Open _Source Directory"
+msgstr "Ireki iturburuaren direktorioa"
+
+#: src/ui/menu.ui:298 src/ui/menu.ui:377
+msgid "Open _Destination Directory"
+msgstr "Ireki helmugako direktorioa"
+
+#: src/ui/menu.ui:304 src/ui/menu.ui:382
+msgid "Open Encode _Log"
+msgstr "Ireki kodetzearen erregistroa"
+
+#: src/ui/menu.ui:308 src/ui/menu.ui:386
+msgid "Open _Encode Log Directory"
+msgstr "Ireki kodetze erregistroaren direktorioa"
+
+#: src/ui/menu.ui:316
+msgid "Reset _Failed Jobs"
+msgstr "Berrezarri _Huts egindako lanak"
+
+#: src/ui/menu.ui:320
+msgid "_Reset All Jobs"
+msgstr "_Berrezarri lan guztiak"
+
+#: src/ui/menu.ui:324
+msgid "_Clear Completed Jobs"
+msgstr "_Garbitu amaitutako lanak"
+
+#: src/ui/menu.ui:328
+msgid "Clear _All Jobs"
+msgstr "Garbitu _Lan Guztiak"
+
+#: src/ui/menu.ui:346
+msgid "_Add Track"
+msgstr "_Gehitu Pista"
+
+#: src/ui/menu.ui:350 src/ui/menu.ui:419 src/ui/menu.ui:431
+msgid "Add A_ll Tracks"
+msgstr ""
+
+#: src/ui/menu.ui:354 src/ui/menu.ui:435
+msgid "Add _Foreign Audio Scan"
+msgstr ""
+
+#: src/ui/menu.ui:360
+msgid "Add External Subtitle File"
+msgstr "Gehitu kanpoko azpititulu fitxategia"
+
+#: src/ui/menu.ui:393
+msgid "Move to _Top"
+msgstr "Mugitu gora"
+
+#: src/ui/menu.ui:397
+msgid "Move to _Bottom"
+msgstr "Mugitu behera"
+
+#: src/ui/menu.ui:403
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: src/ui/menu.ui:407
+msgid "_Reset"
+msgstr "_Berrezarri"
+
+#: src/ui/menu.ui:415 src/ui/menu.ui:427
+msgid "_Add New Track"
+msgstr "_Gehitu Pista Berria"
+
+#: src/ui/ghb.ui:93
+msgid ""
+"Render the subtitle over the video.\n"
+"\n"
+"The subtitle will be part of the video and can not be disabled."
+msgstr ""
+"Erre azpititulua bideoan\n"
+"Azpititulua bideoaren parte bihurtzen da eta ezingo da kendu."
+
+#: src/ui/ghb.ui:96
+msgid "<b>Burned In</b>"
+msgstr "<b>Erretzeko denbora</b>"
+
+#: src/ui/ghb.ui:100
+msgid ""
+"Set the default output subtitle track.\n"
+"\n"
+"Most players will automatically display this\n"
+"subtitle track whenever the video is played.\n"
+"\n"
+"This is useful for creating a \"forced\" track\n"
+"in your output."
+msgstr ""
+"Ezarri azpitituluen irteerako lehenetsitako pista\n"
+"Erreproduzigailu gehienek azpitituluen pista hau\n"
+"automatikoki erakusten dute bideoa erreproduzitzean.\n"
+"\n"
+"Erabilgarria da \"behartzeko\" pistaren sorrera\n"
+" irteera fitxategian."
+
+#: src/ui/ghb.ui:107
+msgid "<b>Default</b>"
+msgstr "<b>Lehenetsia</b>"
+
+#: src/ui/ghb.ui:111
+msgid ""
+"Use only subtitles that have been flagged\n"
+"as forced in the source subtitle track\n"
+"\n"
+"\"Forced\" subtitles are usually used to show\n"
+"subtitles during scenes where someone is speaking\n"
+"a foreign language."
+msgstr ""
+"Erabili bakarrik jatorrizko azpitituluen pistan\n"
+"behartuta etiketa duten azpitituluak\n"
+"\n"
+"\"Behartuta\" etiketa duten azpitituluak erabiltzen ohi\n"
+"dira erakusteko azpitituluak norbaitek atzerriko hizkuntza\n"
+"batean hitz egiten duen bitartean."
+
+#: src/ui/ghb.ui:117
+msgid "<b>Forced Only</b>"
+msgstr "<b>Behartuak bakarrik</b>"
+
+#: src/ui/ghb.ui:121
+msgid ""
+"Add (or subtract) an offset (in milliseconds)\n"
+"to the start of the SRT subtitle track.\n"
+"\n"
+"Often, the start of an external SRT file\n"
+"does not coincide with the start of the video.\n"
+"This setting allows you to synchronize the files."
+msgstr ""
+"Gehitu (edo kendu) denbora desplazamendu bat\n"
+"(milisegundotan) SRT azpitituluen pistaren hasieran.\n"
+"\n"
+"Sarritan, ekarritako SRT fitxategiaren hasierak\n"
+"ez du bat egiten bideoaren hasierarekin.\n"
+"Ezarpen honen bidez fitxategiak sinkronizatu daitezke."
+
+#: src/ui/ghb.ui:127
+msgid "<b>SRT Offset</b>"
+msgstr "<b>SRT desplazamendua</b>"
+
+#: src/ui/ghb.ui:131
+msgid ""
+"The source subtitle track\n"
+"\n"
+"You can choose any of the subtitles\n"
+"recognized in your source file.\n"
+"\n"
+"In addition, there is a special track option\n"
+"\"Foreign Audio Scan\".  This option will add\n"
+"an extra pass to the encode that searches for\n"
+"subtitles that may correspond to a foreign\n"
+"language scene.  This option is best used in\n"
+"conjunction with the \"Forced\" option."
+msgstr ""
+"Azpitituluen pistaren iturburua\n"
+"\n"
+"Iturburuko fitxategiak duen edozein \n"
+"azpititulu-pista aukeratu dezakezu.\n"
+"\n"
+"Horrez gain, pista-aukera berezi bat dago\n"
+"\"Erdarazko Audio eskaneatzea\". Aukera honek\n"
+"erdarazko eszenei dagozkien azpitituluak bilatzen\n"
+"dituen kodetzeari aparteko pase bat gehituko dio.\n"
+"Aukera hau hobeto erabiltzen da\n"
+"\"Behartuta\" aukerarekin batera."
+
+#: src/ui/ghb.ui:142
+msgid "<b>Track</b>"
+msgstr "<b>Pista</b>"
+
+#: src/ui/ghb.ui:146 src/ui/ghb.ui:1440
+msgid "Presets"
+msgstr "Aurrezarpenak"
+
+#: src/ui/ghb.ui:157
+msgid "Save as new preset"
+msgstr "Gorde aurrezarpen berri gisa"
+
+#: src/ui/ghb.ui:166 src/ui/ghb.ui:430
+msgid "Actions"
+msgstr "Ekintzak"
+
+#: src/ui/ghb.ui:205
+msgid "HandBrake Queue"
+msgstr "HandBrake-ren ilara"
+
+#: src/ui/ghb.ui:212 src/ui/ghb.ui:1416 src/queuehandler.c:1843
+#: src/queuehandler.c:1856
+msgid "Start Encoding"
+msgstr "Hasi"
+
+#: src/ui/ghb.ui:213 src/ui/ghb.ui:1417 src/ui/ghb.ui:4154
+#: src/queuehandler.c:1842 src/queuehandler.c:1855
+msgid "Start"
+msgstr "Hasi"
+
+#: src/ui/ghb.ui:221 src/ui/ghb.ui:1424 src/queuehandler.c:1887
+#: src/queuehandler.c:1900
+msgid "Pause Encoding"
+msgstr "Pausatu"
+
+#: src/ui/ghb.ui:222 src/ui/ghb.ui:1425 src/queuehandler.c:1886
+#: src/queuehandler.c:1899
+msgid "Pause"
+msgstr "Pausatu"
+
+#: src/ui/ghb.ui:235 src/ui/ghb.ui:1456
+msgid "Queue"
+msgstr "Ilara"
+
+#: src/ui/ghb.ui:241
+msgid "0 jobs pending"
+msgstr "0 lan zain"
+
+#: src/ui/ghb.ui:251
+msgid "Options"
+msgstr "Aukerak"
+
+#: src/ui/ghb.ui:322 src/ui/ghb.ui:4538
+msgid "When Done:"
+msgstr "Amaitzerakoan:"
+
+#: src/ui/ghb.ui:335
+msgid "Show/hide the queue details panel"
+msgstr "Erakutsi/ezkutatu ilararen xehetasunen panela"
+
+#: src/ui/ghb.ui:364 src/ui/ghb.ui:1733
+msgid "Summary"
+msgstr "Laburpena"
+
+#: src/ui/ghb.ui:382
+msgid ""
+"Mark selected queue entry as pending.\n"
+"Resets the queue job to pending and ready to run again."
+msgstr ""
+"Markatu hautatutako ilararen sarrera 'zain' moduan.\n"
+"Ilara berrezartzen du eta berriro exekutatzeko prest jarri."
+
+#: src/ui/ghb.ui:397
+msgid "Reset"
+msgstr "Berrezarri"
+
+#: src/ui/ghb.ui:419
+msgid "Edit"
+msgstr "Editatu"
+
+#: src/ui/ghb.ui:456 src/ui/ghb.ui:2945 src/ui/ghb.ui:3069 src/ui/ghb.ui:3210
+#: src/ui/ghb.ui:3585 src/hb-backend.c:4305 src/hb-backend.c:4312
+#: src/hb-backend.c:4336 src/hb-backend.c:4344 src/hb-backend.c:4372
+#: src/hb-backend.c:4381 src/hb-backend.c:4408 src/hb-backend.c:4433
+msgid "Preset:"
+msgstr "Aurrezarpena:"
+
+#: src/ui/ghb.ui:483
+msgid "Source:"
+msgstr "Iturburua:"
+
+#: src/ui/ghb.ui:515 src/ui/ghb.ui:4203
+msgid "Title:"
+msgstr "Titulua:"
+
+#: src/ui/ghb.ui:546
+msgid "Destination:"
+msgstr "Helmuga:"
+
+#: src/ui/ghb.ui:578
+msgid "Dimensions:"
+msgstr "Neurriak:"
+
+#: src/ui/ghb.ui:605
+msgid "Video:"
+msgstr "Bideoa:"
+
+#: src/ui/ghb.ui:632
+msgid "Audio:"
+msgstr "Audioa:"
+
+#: src/ui/ghb.ui:659
+msgid "Subtitles:"
+msgstr "Azpitituluak:"
+
+#: src/ui/ghb.ui:691
+msgid "Statistics"
+msgstr "Estatistikak"
+
+#: src/ui/ghb.ui:720
+msgid "Pass:"
+msgstr "Itzulia:"
+
+#: src/ui/ghb.ui:748
+msgid "Start Time:"
+msgstr "Hasiera ordua:"
+
+#: src/ui/ghb.ui:775
+msgid "End Time:"
+msgstr "Amaiera ordua:"
+
+#: src/ui/ghb.ui:806
+msgid "Paused Duration:"
+msgstr "Pausatzearen iraupena:"
+
+#: src/ui/ghb.ui:837
+msgid "Encode Time:"
+msgstr "Kodetze denbora:"
+
+#: src/ui/ghb.ui:864
+msgid "File Size:"
+msgstr "Fitxategiaren tamaina:"
+
+#: src/ui/ghb.ui:891
+msgid "Status:"
+msgstr "Egoera:"
+
+#: src/ui/ghb.ui:923 src/ui/ghb.ui:958 src/ui/ghb.ui:980 src/ui/ghb.ui:1008
+#: src/ui/ghb.ui:1040
+msgid "Activity Log"
+msgstr "Jardueren erregistroa"
+
+#: src/ui/ghb.ui:1300
+msgid "About HandBrake"
+msgstr "HandBrake-ri buruz"
+
+#: src/ui/ghb.ui:1303
+msgid ""
+"Copyright © 2008-2024 John Stebbins\n"
+"Copyright © 2004-2024, HandBrake Devs"
+msgstr ""
+"Copyright © 2008-2024 John Stebbins\n"
+"Copyright © 2004-2024, HandBrake Devs"
+
+#: src/ui/ghb.ui:1305
+msgid "Multithreaded video transcoder"
+msgstr "Prozesu anitzeko bideo transkodifikatzailea"
+
+#: src/ui/ghb.ui:1334 data/fr.handbrake.ghb.desktop.in:3
+msgid "HandBrake"
+msgstr "HandBrake"
+
+#: src/ui/ghb.ui:1363 src/callbacks.c:4556
+msgid "Choose Video Source"
+msgstr "Aukeratu bideo-iturburua"
+
+#: src/ui/ghb.ui:1364 src/callbacks.c:1873 src/callbacks.c:4555
+msgid "Open Source"
+msgstr "Ireki iturburua"
+
+#: src/ui/ghb.ui:1391
+msgid "Add to Queue"
+msgstr "Gehitu ilaran"
+
+#: src/ui/ghb.ui:1392
+msgid "Add To Queue"
+msgstr "Gehitu ilaran"
+
+#: src/ui/ghb.ui:1439
+msgid "Show Presets Window"
+msgstr "Erakutsi aurrezarpenen leihoa"
+
+#: src/ui/ghb.ui:1447
+msgid "Show Preview Window"
+msgstr "Erakutsi aurrebistaren leihoa"
+
+#: src/ui/ghb.ui:1448
+msgid "Preview"
+msgstr "Aurrebista"
+
+#: src/ui/ghb.ui:1455
+msgid "Show Queue"
+msgstr "Erakutsi ilara"
+
+#: src/ui/ghb.ui:1463
+msgid "Show Activity Window"
+msgstr "Erakutsi jarduera leihoa"
+
+#: src/ui/ghb.ui:1464
+msgid "Activity"
+msgstr "Prozesua"
+
+#: src/ui/ghb.ui:1482
+msgid "<b>Source:</b>"
+msgstr "<b>Iturburua:</b>"
+
+#: src/ui/ghb.ui:1498 src/hb-backend.c:54 src/hb-backend.c:66
+#: src/hb-backend.c:79 src/hb-backend.c:117 src/hb-backend.c:217
+#: src/hb-backend.c:250 src/hb-backend.c:261 src/hb-backend.c:288
+#: src/hb-backend.c:373 src/hb-backend.c:2547 src/hb-backend.c:2772
+#: src/subtitlehandler.c:1434
+msgid "None"
+msgstr "Bat ere ez"
+
+#: src/ui/ghb.ui:1526 src/callbacks.c:4528
+msgid "Scanning..."
+msgstr "Eskaneatzen..."
+
+#: src/ui/ghb.ui:1546
+msgid "<b>Title:</b>"
+msgstr "<b>Titulua:</b>"
+
+#: src/ui/ghb.ui:1564
+msgid ""
+"Set the title to encode.\n"
+"By default the longest title is chosen.\n"
+"This is often the feature title of a DVD."
+msgstr ""
+"Ezarri kodetzeko titulua.\n"
+"Besterik ezean titulurik luzeena aukeratuko da.\n"
+"Hori izan ohi da jatorrizkoa DVDen kasuan."
+
+#: src/ui/ghb.ui:1580
+msgid "<b>Angle:</b>"
+msgstr "<b>Angelua:</b>"
+
+#: src/ui/ghb.ui:1588
+msgid "For multi-angle DVD's, select the desired angle to encode."
+msgstr "Angelu-anitzeko DVDetan, aukeratu zein angelu kodetu nahi duzun."
+
+#: src/ui/ghb.ui:1599
+msgid "<b>Range:</b>"
+msgstr "<b>Tartea:</b>"
+
+#: src/ui/ghb.ui:1605
+msgid "Range of title to encode. Can be chapters, seconds, or frames."
+msgstr ""
+"Kodetzeko tituluen tartea. Kapituluak, segundoak edo fotogramak izan "
+"daitezke."
+
+#: src/ui/ghb.ui:1613
+msgid "Set the first chapter to encode."
+msgstr "Ezarri kodetzearen lehenengo kapitulua."
+
+#: src/ui/ghb.ui:1624
+msgid "-"
+msgstr "-"
+
+#: src/ui/ghb.ui:1631
+msgid "Set the last chapter to encode."
+msgstr "Ezarri kodetzearen azkeneko kapitulua."
+
+#: src/ui/ghb.ui:1649
+msgid "<b>Preset:</b>"
+msgstr "<b>Aurrezarpena:</b>"
+
+#: src/ui/ghb.ui:1666
+msgid "Choose Preset"
+msgstr "Aukeratu aurrezarpena"
+
+#: src/ui/ghb.ui:1675
+msgid "<u><i>Modified</i></u>"
+msgstr "<u><i>Aldatua</i></u>"
+
+#: src/ui/ghb.ui:1681 src/ui/ghb.ui:3857 src/ui/ghb.ui:4011
+msgid "Reload"
+msgstr "Birkargatu"
+
+#: src/ui/ghb.ui:1684
+msgid ""
+"Reload the settings for the currently selected preset.\n"
+"Modifications will be discarded."
+msgstr ""
+"Birkargatu ezarpenak une honetan hautatutako aurrezapenetik.\n"
+"Aldaketak baztertuko dira."
+
+#: src/ui/ghb.ui:1693
+msgid "Save New Preset"
+msgstr "Gorde aurre-ezarpen berria"
+
+#: src/ui/ghb.ui:1696
+msgid "Save the current settings to a new Preset."
+msgstr "Uneko ezarpenak aurrezarpen berri moduan gorde."
+
+#: src/ui/ghb.ui:1746
+msgid "Format:"
+msgstr "Formatua:"
+
+#: src/ui/ghb.ui:1760
+msgid "Format to mux encoded tracks to."
+msgstr "Formateatu mux pista kodetuetarako."
+
+#: src/ui/ghb.ui:1770 src/queuehandler.c:225
+msgid "Web Optimized"
+msgstr "Weberako optimizatua"
+
+#: src/ui/ghb.ui:1772
+msgid ""
+"Optimize the layout of the MP4 file for progressive download.\n"
+"This allows a player to initiate playback before downloading the entire file."
+msgstr ""
+"Optimizatu MP4 fitxategiaren diseinua deskarga progresiboetarako.\n"
+"Horrela erreproduzigailuak erreprodukzioa has dezake fitxategi osoa deskargatu aurretik."
+
+#: src/ui/ghb.ui:1785
+msgid "Align A/V Start"
+msgstr "Lerrokatu A/V hasiera"
+
+#: src/ui/ghb.ui:1787
+msgid ""
+"Aligns the initial timestamps of all audio and video streams by\n"
+"inserting blank frames or dropping frames. May improve audio/video\n"
+"sync for broken players that do not honor MP4 edit lists."
+msgstr ""
+"Audio eta bideo transmisio guztien hasierako kronogramak lerrokatzen ditu\n"
+"marko zuriak edo prezipitazio-markoak txertatuta. Audio/bideoa sinkronizazioa\n"
+"hobetu dezake MP4 editatzeko zerrendak errespetatzen ez dituzten erreproduzitzaileentzat."
+
+#: src/ui/ghb.ui:1801
+msgid "iPod 5G Support"
+msgstr "iPod 5G euskarria"
+
+#: src/ui/ghb.ui:1803
+msgid "Add iPod Atom needed by some older iPods."
+msgstr "Gehitu iPod zahar batzuk behar dute iPod Atom."
+
+#: src/ui/ghb.ui:1815
+msgid "Passthru Common Metadata"
+msgstr "Pasa ohiko metadatuak"
+
+#: src/ui/ghb.ui:1817
+msgid "Copy metadata from source to output."
+msgstr "Kopiatu metadatuak iturburutik."
+
+#: src/ui/ghb.ui:1850
+msgid "Duration:"
+msgstr "Iraupena:"
+
+#: src/ui/ghb.ui:1863
+msgid "hh:mm:ss"
+msgstr "hh:mm:ss"
+
+#: src/ui/ghb.ui:1874
+msgid "Tracks:"
+msgstr "Pistak:"
+
+#: src/ui/ghb.ui:1907
+msgid "Filters:"
+msgstr "Iragaziak:"
+
+#: src/ui/ghb.ui:1940
+msgid "Size:"
+msgstr "Tamaina:"
+
+#: src/ui/ghb.ui:1987 src/ui/ghb.ui:2006 src/ui/ghb.ui:6292
+msgid "Video Preview"
+msgstr "Bideoaren Aurrebista"
+
+#: src/ui/ghb.ui:2022
+msgid "Dimensions"
+msgstr "Neurriak"
+
+#: src/ui/ghb.ui:2036
+msgid "<b>Source Dimensions</b>"
+msgstr "<b>Iturburuaren dimentsioak</b>"
+
+#: src/ui/ghb.ui:2051 src/ui/ghb.ui:2697
+msgid "Storage Size:"
+msgstr "Biltegiratze tamaina:"
+
+#: src/ui/ghb.ui:2074 src/ui/ghb.ui:2724
+msgid "Display Size:"
+msgstr "Bistaratze tamaina:"
+
+#: src/ui/ghb.ui:2097 src/ui/ghb.ui:2791
+msgid "Aspect Ratio:"
+msgstr "Aspektu erlazioa:"
+
+#: src/ui/ghb.ui:2129
+msgid "<b>Orientation &amp; Cropping</b>"
+msgstr "<b>Orientazioa eta Mozketa</b>"
+
+#: src/ui/ghb.ui:2148
+msgid "Flipping:"
+msgstr "Biratzea:"
+
+#: src/ui/ghb.ui:2157
+msgid "Horizontal ⇌"
+msgstr "Horizontala  "
+
+#: src/ui/ghb.ui:2159
+msgid "Flip video horizontally."
+msgstr "Biratu bideoa horizontalki."
+
+#: src/ui/ghb.ui:2172
+msgid "Rotation:"
+msgstr "Errotazioa:"
+
+#: src/ui/ghb.ui:2183
+msgid "Rotate the video clockwise in 90 degree increments."
+msgstr "Biratu bideoa 90 gradu erlojuaren orratzen norantzan."
+
+#: src/ui/ghb.ui:2195
+msgid "Cropping:"
+msgstr "Mozketa:"
+
+#: src/ui/ghb.ui:2206
+msgid "How to apply crop settings."
+msgstr "Mozketaren ezarpenak nola aplikatu."
+
+#: src/ui/ghb.ui:2220
+msgid "Left Crop"
+msgstr "Moztu ezkerretik"
+
+#: src/ui/ghb.ui:2234
+msgid "Top Crop"
+msgstr "Moztu goitik"
+
+#: src/ui/ghb.ui:2248
+msgid "Bottom Crop"
+msgstr "Moztu behetik"
+
+#: src/ui/ghb.ui:2262
+msgid "Right Crop"
+msgstr "Moztu eskuinetik"
+
+#: src/ui/ghb.ui:2293
+msgid "<b>Resolution &amp; Scaling</b>"
+msgstr "<b>Bereizmena eta eskalatzea</b>"
+
+#: src/ui/ghb.ui:2311
+msgid "Resolution Limit:"
+msgstr "Bereizmen muga:"
+
+#: src/ui/ghb.ui:2321
+msgid "Resolution limits for common video formats."
+msgstr "Bereizmen muga ohiko formatuentzat."
+
+#: src/ui/ghb.ui:2334
+msgid "Maximum Size:"
+msgstr "Gehienezko tamaina:"
+
+#: src/ui/ghb.ui:2346
+msgid "This is the maximum width that the video will be stored at."
+msgstr "Hau da bideoak gordetzean izango duen gehieneko zabalera."
+
+#: src/ui/ghb.ui:2371
+msgid "This is the maximum height that the video will be stored at."
+msgstr "Hau da bideoak gordetzean izango duen gehieneko altuera."
+
+#: src/ui/ghb.ui:2383
+msgid "Anamorphic:"
+msgstr "Anamorfikoa:"
+
+#: src/ui/ghb.ui:2393
+msgid ""
+"<b>Anamorphic Modes:</b><small><tt>\n"
+"    Automatic - Use a pixel aspect ratio that maximizes\n"
+"        storage resolution while preserving the original\n"
+"        display aspect ratio.\n"
+"    None      - Force pixel aspect ratio to 1:1.\n"
+"    Custom    - Enter a custom pixel aspect ratio.</tt></small>"
+msgstr ""
+"<b>Modu Anamorfikoa:</b><small><tt>\n"
+"Automatikoa - Erabili pixelen aspektu erlazioa maximizatzen duen\n"
+"biltegiratze bereizmena jatorrizko\n"
+"bistaratzeko aspektu erlazioa gordez.\n"
+"Bat ere ez - Behartu pixelen aspektu erlazioa 1:1era.\n"
+"Pertsonalizatua - Aukeratu pixelen aspektu erlazio pertsonalizatua.</tt></small>"
+
+#: src/ui/ghb.ui:2410
+msgid "Pixel Aspect:"
+msgstr "Pixel proportzioa"
+
+#: src/ui/ghb.ui:2421
+msgid ""
+"Pixel aspect defines the shape of the pixels.\n"
+"\n"
+"A 1:1 ratio defines a square pixel.  Other values define rectangular shapes.\n"
+"Players will scale the image in order to achieve the specified aspect."
+msgstr ""
+"Pixelen itxurak pixelen forma definitzen du.\n"
+"\n"
+"1:1 erlazioak pixel karratu bat definitzen du. Beste balio batzuek forma angeluzuzenak definitzen dituzte.\n"
+"Erreproduzitzaileek irudia eskalatuko dute zehaztutako itxura lortzeko."
+
+#: src/ui/ghb.ui:2436
+msgid ":"
+msgstr ":"
+
+#: src/ui/ghb.ui:2447
+msgid ""
+"Pixel aspect defines the shape of the pixels.\n"
+"A 1:1 ratio defines a square pixel.  Other values define rectangular shapes.\n"
+"Players will scale the image in order to achieve the specified aspect."
+msgstr ""
+"Pixelen itxurak pixelen forma definitzen du.\n"
+"1:1 erlazioak pixel karratu bat definitzen du. Beste balio batzuek forma angeluzuzenak definitzen dituzte.\n"
+"Erreproduzitzaileek irudia eskalatuko dute zehaztutako itxura lortzeko."
+
+#: src/ui/ghb.ui:2461
+msgid "Scaled Size:"
+msgstr "Tamaina eskalatua:"
+
+#: src/ui/ghb.ui:2472
+msgid ""
+"This is the width that the video will be stored at.\n"
+"The actual display dimensions will differ if the pixel aspect ratio is not 1:1."
+msgstr ""
+"Bideoa zabalera honekin biltegiratuko da.\n"
+"Bistaratzeko uneko luze-zabalera ez dira berdinak izango baldin eta pixelen itxuraren proportzioa 1:1 ez bada."
+
+#: src/ui/ghb.ui:2485 src/ui/ghb.ui:2747
+msgid "×"
+msgstr "×"
+
+#: src/ui/ghb.ui:2496
+msgid ""
+"This is the height that the video will be stored at.\n"
+"The actual display dimensions will differ if the pixel aspect ratio is not 1:1."
+msgstr ""
+"Bideoa altuera honekin biltegiratuko da.\n"
+"Bistaratzeko uneko luze-zabalera ez dira berdinak izango baldin eta pixelen itxuraren proportzioa 1:1 ez bada."
+
+#: src/ui/ghb.ui:2508
+msgid "Optimal Size"
+msgstr "Tamaina optimoa"
+
+#: src/ui/ghb.ui:2510
+msgid "Use highest resolution permitted by above settings."
+msgstr "Erabili goiko ezarpenek onartzen duten bereizmen handiena."
+
+#: src/ui/ghb.ui:2522
+msgid "Allow Upscaling"
+msgstr "Baimendu handitzea"
+
+#: src/ui/ghb.ui:2524
+msgid ""
+"If not enabled, scaled dimensions will be limited to source dimensions."
+msgstr ""
+"Gaitzen ez bada, eskalatutako dimentsioak iturburuaren dimentsioetara "
+"mugatuko dira."
+
+#: src/ui/ghb.ui:2548
+msgid "<b>Borders</b>"
+msgstr "<b>Ertzak</b>"
+
+#: src/ui/ghb.ui:2567
+msgid "Fill:"
+msgstr "Bete:"
+
+#: src/ui/ghb.ui:2579
+msgid "Add a border around the video."
+msgstr "Gehitu ertz bat bideoaren inguruan."
+
+#: src/ui/ghb.ui:2592
+msgid "Left Pad"
+msgstr "Ezkerreko babesa"
+
+#: src/ui/ghb.ui:2606
+msgid "Top Pad"
+msgstr "Goiko babesa"
+
+#: src/ui/ghb.ui:2620
+msgid "Bottom Pad"
+msgstr "Beheko babesa"
+
+#: src/ui/ghb.ui:2634
+msgid "Right Pad"
+msgstr "Eskuineko babesa"
+
+#: src/ui/ghb.ui:2647
+msgid "Color:"
+msgstr "Kolorea:"
+
+#: src/ui/ghb.ui:2659
+msgid "Color of border added around video."
+msgstr "Bideoaren inguruan gehitutako ertzaren kolorea."
+
+#: src/ui/ghb.ui:2683
+msgid "<b>Final Dimensions</b>"
+msgstr "<b>Azken neurriak</b>"
+
+#: src/ui/ghb.ui:2735 src/ui/ghb.ui:2758 src/ui/ghb.ui:2771
+msgid "Changing the display size will stretch the video."
+msgstr "Bistaratzeko tamaina aldatzeak bideoa zabalduko du."
+
+#: src/ui/ghb.ui:2769 src/hb-backend.c:116 src/hb-backend.c:219
+#: src/hb-backend.c:291
+msgid "Automatic"
+msgstr "Automatikoa"
+
+#: src/ui/ghb.ui:2820
+msgid "Filters"
+msgstr "Iragaziak:"
+
+#: src/ui/ghb.ui:2830
+msgid "Detelecine:"
+msgstr "Detelecine:"
+
+#: src/ui/ghb.ui:2841
+msgid ""
+"This filter removes 'combing' artifacts that are the result of telecining.\n"
+"\n"
+"Telecining is a process that adjusts film framerates that are 24fps to NTSC video frame rates which are 30fps."
+msgstr ""
+"Iragazki honek Telezinearen ondorioz sortzen diren artefaktuak kentzen ditu.\n"
+"\n"
+"Telezinea 24 fps dauden filmen fotograma-abiadurak 30 fps-ra doitzeko prozesua da."
+
+#: src/ui/ghb.ui:2857 src/ui/ghb.ui:3283
+msgid ""
+"Custom detelecine filter string format\n"
+"\n"
+"JunkLeft:JunkRight:JunkTop:JunkBottom:StrictBreaks:MetricPlane:Parity"
+msgstr ""
+"Pertsonalizatu Detelecine iragazkiaren formatua\n"
+"\n"
+"JunkLeft:JunkRight:JunkTop:JunkBottom:StrictBreaks:MetricPlane:Parity"
+
+#: src/ui/ghb.ui:2872
+msgid "Interlace Detection:"
+msgstr "Entrelazatuaren detekzioa:"
+
+#: src/ui/ghb.ui:2883
+msgid ""
+"This filter detects interlaced frames.\n"
+"\n"
+"If a deinterlace filter is enabled, only frames that this filter finds\n"
+"to be interlaced will be deinterlaced."
+msgstr ""
+"Iragazki honek entrelazatutako fotogramak detektatzen ditu.\n"
+"\n"
+"'Desentrelazatu' iragazkia gaituta badago, iragazki honek aurkitzen dituen\n"
+"fotogramak soilik desentrelazatuko ditu."
+
+#: src/ui/ghb.ui:2898
+msgid ""
+"Custom interlace detection filter string format\n"
+"\n"
+"Mode:Spatial Metric:Motion Thresh:Spatial Thresh:Mask Filter Mode:\n"
+"Block Thresh: Block Width: Block Height"
+msgstr ""
+"Pertsonalizatu entrelazatua detektatzeko iragazki kateen formatua\n"
+"\n"
+"Mode:Spatial Metric:Motion Thresh:Spatial Thresh:Mask Filter Mode:\n"
+"Block Thresh: Block Width: Block Height"
+
+#: src/ui/ghb.ui:2914
+msgid "Deinterlace:"
+msgstr "Desentrelazatzea:"
+
+#: src/ui/ghb.ui:2925
+msgid ""
+"Choose decomb or deinterlace filter.\n"
+"\n"
+"The decomb filter supports a variety of interpolation algorithms.\n"
+"The deinterlace filter is a classic YADIF deinterlacer.\n"
+msgstr ""
+"Aukeratu Decomb edo Desentrelazatua iragazkia.\n"
+"\n"
+"Decomb iragazkiak interpolazio algoritmo ugari onartzen ditu.\n"
+"Desentrelazatua iragazkia YADIF desentrelazatze klasikoa da.\n"
+
+#: src/ui/ghb.ui:2952
+msgid ""
+"Choose decomb or deinterlace filter options.\n"
+"\n"
+"    The decomb filter supports a variety of interpolation algorithms.\n"
+"    The deinterlace filter is a classic YADIF deinterlacer.\n"
+"    "
+msgstr ""
+"Aukeratu decomb edo desentralazatze iragazkien aukerak.\n"
+"\n"
+"Dcomb iragazkiak interpolazio-algoritmo ugari onartzen ditu.\n"
+"Desentralazatze iragazkia YADIF desentralazatze klasikoa da."
+
+#: src/ui/ghb.ui:2979
+msgid "Deblock Filter:"
+msgstr "Desbloketze iragazkia:"
+
+#: src/ui/ghb.ui:2990
+msgid ""
+"The deblocking filter removes a common type of compression artifact.\n"
+"If your source exhibits 'blockiness', this filter may help clean it up."
+msgstr ""
+"Desbloketze iragazkiak konpresioak sortutako bloke artefaktu arruntak kentzen ditu.\n"
+"Zure iturburuak baldin baditu, iragazki honek garbitzen lagun dezake."
+
+#: src/ui/ghb.ui:3007 src/ui/ghb.ui:3087 src/ui/ghb.ui:3149 src/ui/ghb.ui:3227
+#: src/ui/ghb.ui:3641 src/hb-backend.c:4409 src/hb-backend.c:4434
+msgid "Tune:"
+msgstr "Tonua:"
+
+#: src/ui/ghb.ui:3014
+msgid ""
+"The deblocking filter removes a common type of compression artifact.\n"
+"    If your source exhibits 'blockiness', this filter may help clean it up."
+msgstr ""
+"Deblock iragazkiak konpresio-artefaktu arruntak kentzen ditu.\n"
+"Zure iturburuak artefaktu hauek erakusten baditu, iragazki honek garbitzen lagun dezake."
+
+#: src/ui/ghb.ui:3023 src/ui/ghb.ui:3165
+msgid ""
+"Custom deblock filter string format\n"
+"\n"
+"    strength=weak|strong:thresh=0-100:blocksize=4-512"
+msgstr ""
+"Deblock iragazkiaren kate-formatu pertsonalizatua\n"
+"\n"
+"    strength=weak|strong:thresh=0-100:blocksize=4-512"
+
+#: src/ui/ghb.ui:3040
+msgid "Denoise Filter:"
+msgstr "Denoise iragazkia:"
+
+#: src/ui/ghb.ui:3051
+msgid ""
+"Denoise filtering reduces or removes the appearance of noise and grain.\n"
+"Film grain and other types of high frequency noise are difficult to compress.\n"
+"Using this filter on such sources can result in smaller file sizes."
+msgstr ""
+"Denoise iragazkiak irudiaren zarata eta garaua murriztu edo kentzen du.\n"
+"Filmetako garaua eta frekuentzia handiko beste zarata mota batzuk zailak dira konprimitzen.\n"
+"Iturburu horietan iragazki hau erabiltzeak fitxategi-tamaina txikiagoak ekar ditzake."
+
+#: src/ui/ghb.ui:3076 src/ui/ghb.ui:3094
+msgid ""
+"Denoise filtering reduces or removes the appearance of noise and grain.\n"
+"    Film grain and other types of high frequency noise are difficult to compress.\n"
+"    Using this filter on such sources can result in smaller file sizes."
+msgstr ""
+"Denoise iragazkiak zarata eta pikorra murrizten edo kentzen du.\n"
+"Filmaren pikorra eta frekuentzia handiko beste zarata mota batzuk zailak dira konprimitzen.\n"
+"Iturburu horietan iragazki hau erabiltzeak fitxategi-tamaina txikiagoak ekar ditzake."
+
+#: src/ui/ghb.ui:3104 src/ui/ghb.ui:3243
+msgid ""
+"Custom denoise filter string format\n"
+"\n"
+"    SpatialLuma:SpatialChroma:TemporalLuma:TemporalChroma"
+msgstr ""
+"Denoise iragazkiaren kate-formatu pertsonalizatua\n"
+"\n"
+"    SpatialLuma:SpatialChroma:TemporalLuma:TemporalChroma"
+
+#: src/ui/ghb.ui:3121
+msgid "Chroma Smooth Filter:"
+msgstr "Kroma leuntze iragazkia:"
+
+#: src/ui/ghb.ui:3132
+msgid ""
+"The chroma smooth filter removes common color artifacts.\n"
+"Lower resolution analog source content may benefit from this filter."
+msgstr ""
+"Kroma leuntze iragazkiak kolore-artefaktu arruntak desagerrarazten ditu.\n"
+"Bereizmen baxuko iturri analogikoko edukientzat iragazki hau onuragarria izan daiteke."
+
+#: src/ui/ghb.ui:3156
+msgid ""
+"The chroma smooth filter removes common color artifacts.\n"
+"    Lower resolution analog source content may benefit from this filter."
+msgstr ""
+"Kroma-iragazki leunak kolore-artefaktu arruntak kentzen ditu.\n"
+"Bereizmen baxuko iturri analogikoko edukientzat onuragarria izan daiteke."
+
+#: src/ui/ghb.ui:3182
+msgid "Sharpen Filter:"
+msgstr "Zorrozte iragazkia:"
+
+#: src/ui/ghb.ui:3193
+msgid ""
+"Sharpen filtering enhances edges and other\n"
+"high frequency components in the video."
+msgstr ""
+"Zorrozte iragazkiak ertzak eta frekuentzia\n"
+"handiko beste osagaiak hobetzen ditu bideoan."
+
+#: src/ui/ghb.ui:3217 src/ui/ghb.ui:3234
+msgid ""
+"Sharpen filtering enhances edges and other\n"
+"    high frequency components in the video."
+msgstr ""
+"Zorrozte iragazkiak bidoaren ertzak eta \n"
+"frekuentzia handiko beste konponente batzuk hobetzen ditu."
+
+#: src/ui/ghb.ui:3260
+msgid "Colorspace:"
+msgstr "Kolore-espazioa:"
+
+#: src/ui/ghb.ui:3271
+msgid "Translate the colorspace of the source."
+msgstr "Aldatu iturburuaren kolore-espazioa."
+
+#: src/ui/ghb.ui:3297 src/hb-backend.c:4877
+msgid "Grayscale"
+msgstr "Grisen eskala"
+
+#: src/ui/ghb.ui:3299
+msgid "If enabled, filter colour components out of video."
+msgstr "Gaituta badago, kolore-osagaiak iragazten ditu bideotik."
+
+#: src/ui/ghb.ui:3316 src/callbacks.c:5644
+msgid "Video"
+msgstr "Bideoa"
+
+#: src/ui/ghb.ui:3331
+msgid "Video Encoder:"
+msgstr "Bideo kodetzailea:"
+
+#: src/ui/ghb.ui:3341
+msgid "Available video encoders."
+msgstr "Bideo kodetzaile erabilgarriak."
+
+#: src/ui/ghb.ui:3352
+msgid "Framerate:"
+msgstr "Fotograma-ratioa"
+
+#: src/ui/ghb.ui:3362
+msgid ""
+"Output framerate.\n"
+"\n"
+"'Same as source' is recommended. If your source video has\n"
+"a variable framerate, 'Same as source' will preserve it."
+msgstr ""
+"Irteerako fotograma-tasa.\n"
+"\n"
+"\"Iturburuaren berdina\" gomendatzen da. Zure iturburuko bideoak\n"
+"fotograma-tasa aldakorra badu, 'Iturburuaren berdina' aukerak errespetatuko du."
+
+#: src/ui/ghb.ui:3378
+msgid "Constant Framerate"
+msgstr "Fotograma-ratio konstantea"
+
+#: src/ui/ghb.ui:3379
+msgid "Enables constant framerate output."
+msgstr "Fotograma-tasa konstantea gaitzen du."
+
+#: src/ui/ghb.ui:3386
+msgid "Peak Framerate (VFR)"
+msgstr "Gehienezko fotograma-tasa (VFR)"
+
+#: src/ui/ghb.ui:3387
+msgid ""
+"Enables variable framerate output with a peak\n"
+"    rate determined by the framerate setting.\n"
+"\n"
+"    VFR is not compatible with some players."
+msgstr ""
+
+#: src/ui/ghb.ui:3398
+msgid "Variable Framerate"
+msgstr "Fotograma-ratio aldagarria"
+
+#: src/ui/ghb.ui:3399
+msgid ""
+"Enables variable framerate output.\n"
+"\n"
+"    VFR is not compatible with some players."
+msgstr ""
+
+#: src/ui/ghb.ui:3425
+msgid "Constant Quality:"
+msgstr "Kalitate konstantea"
+
+#: src/ui/ghb.ui:3426
+msgid ""
+"Set the desired quality factor.\n"
+"  The encoder targets a certain quality.\n"
+"  The scale used by each video encoder is different.\n"
+"\n"
+"  x264's scale is logarithmic and lower values correspond to higher quality.\n"
+"  So small decreases in value will result in progressively larger increases\n"
+"  in the resulting file size.  A value of 0 means lossless and will result\n"
+"  in a file size that is larger than the original source, unless the source\n"
+"  was also lossless.\n"
+"\n"
+"  FFMpeg's and Theora's scale is more linear.\n"
+"  These encoders do not have a lossless mode."
+msgstr ""
+
+#: src/ui/ghb.ui:3465
+msgid ""
+"Set the desired quality factor.\n"
+"The encoder targets a certain quality.\n"
+"The scale used by each video encoder is different.\n"
+"\n"
+"x264's scale is logarithmic and lower values correspond to higher quality.\n"
+"So small decreases in value will result in progressively larger increases\n"
+"in the resulting file size.  A value of 0 means lossless and will result\n"
+"in a file size that is larger than the original source, unless the source\n"
+"was also lossless.\n"
+"\n"
+"FFMpeg's and Theora's scale is more linear.\n"
+"These encoders do not have a lossless mode."
+msgstr ""
+"Zehaztu nahi duzun kalitate faktorea.\n"
+"Kodetzaileek kalitate jakin bat dute helburu.\n"
+"Bideo-kodetzaile bakoitzak erabiltzen duen eskala desberdina da.\n"
+"\n"
+"x264-ren eskala logaritmikoa da eta balio baxuagoak kalitate handiagoari dagozkio.\n"
+"Beraz, balioaren murrizketa txikiek igoera gero eta handiagoak izango dituzte\n"
+"fitxategiaren tamainan. 0 balioak galerarik gabekoa esan nahi du eta jatorrizko fitxategia baino handiagoa den fitxategia sortuko du,\n"
+"iturria ere galerarik gabekoa izan ezean.\n"
+"\n"
+"FFMpeg eta Theora-ren eskalak linealagoak dira.\n"
+"Kodetzaile hauek ez daukate galerarik gabeko modurik."
+
+#: src/ui/ghb.ui:3481 src/audiohandler.c:1791
+msgid "Quality"
+msgstr "Kalitatea"
+
+#: src/ui/ghb.ui:3492
+msgid "Bitrate (kbps):    "
+msgstr "Bit-ratioa (kbps):"
+
+#: src/ui/ghb.ui:3493 src/ui/ghb.ui:3510
+msgid ""
+"Set the average bitrate.\n"
+"\n"
+"The instantaneous bitrate can be much higher or lower at any point in time.\n"
+"But the average over a long duration will be the value set here.  If you need\n"
+"to limit instantaneous bitrate, look into x264's vbv-bufsize and vbv-maxrate settings."
+msgstr ""
+"Ezarri batez besteko bit-tasa.\n"
+"\n"
+"Momentuko bit-tasa handiagoa edo txikiagoa izan daiteke edozein unetan.\n"
+"Baina iraupen luzeko batez bestekoa hemen ezarritako balioa izango da. Behar baduzu\n"
+"momentuko bit-tasa mugatzeko, begiratu x264-ren vbv-bufsize eta vbv-maxrate ezarpenak."
+
+#: src/ui/ghb.ui:3539
+msgid "Multi-Pass Encoding"
+msgstr "Itzuli anitzeko kodeketa"
+
+#: src/ui/ghb.ui:3541
+msgid ""
+"Perform Multi Pass Encoding.\n"
+"\n"
+"The 'Bitrate' option is prerequisite. During the analysis passes, statistics about\n"
+"the video are collected.  Then in the final pass, those statistics are used\n"
+"to make bitrate allocation decisions."
+msgstr ""
+"Egin itzuli anitzeko kodeketa.\n"
+"\n"
+"'Bitrate' aukera ezinbestekoa da. Analisi itzulian, bideoari buruzko estatistikak\n"
+"biltzen dira. Ondoren, azken itzulian, estatistika horiek erabiltzen dira\n"
+"bitratea esleitzeko erabakiak hartzeko."
+
+#: src/ui/ghb.ui:3552
+msgid "Turbo Analysis Pass"
+msgstr "Analisi azkarreko itzulia"
+
+#: src/ui/ghb.ui:3554
+msgid ""
+"During the analysis pass of a multi pass encode, use settings that speed "
+"things along."
+msgstr ""
+"Itzuli anitzeko kodeketa baten analisi itzulian, gauzak azkartzen dituen "
+"ezarpenak erabili."
+
+#: src/ui/ghb.ui:3599
+msgid ""
+"Adjusts encoder settings to trade off compression efficiency against encoding speed.\n"
+"\n"
+"This establishes your default encoder settings.\n"
+"Tunes, profiles, levels and extra options string will be applied to this.\n"
+"You should generally set this option to the slowest you can bear since slower\n"
+"settings will result in better quality or smaller files."
+msgstr ""
+"Kodetzailearen ezarpenak doitzen ditu eraginkortasuna eta abiadura orekatzeko.\n"
+"\n"
+"Honek zure kodetzailearen ezarpen lehenetsiak ezartzen ditu.\n"
+"Tonuak, profilak, mailak eta aukera gehigarriak aplikatuko zaizkio.\n"
+"Oro har, aukera motelenak aukeratzea gomendatzen da,\n"
+"kalitate hobeko edo tamaina txikiagoko fitxategiak sortuko bait ditu."
+
+#: src/ui/ghb.ui:3614
+msgid "Encoder Preset"
+msgstr "Kodetzailearen aurrezarpena"
+
+#: src/ui/ghb.ui:3651
+msgid ""
+"Tune settings to optimize for common scenarios.\n"
+"\n"
+"This can improve efficiency for particular source characteristics or set\n"
+"characteristics of the output file.  Changes will be applied after the\n"
+"preset but before all other parameters."
+msgstr ""
+"Doitu ezarpenak ohiko egoeretarako optimizatzeko.\n"
+"\n"
+"Honek eraginkortasuna hobetu dezake iturriaren irteerako \n"
+"ezaugarri jakin baterako. Aldaketak aurrezarpenaren ondoren aplikatuko dira,\n"
+"baina beste parametro guztien aurretik."
+
+#: src/ui/ghb.ui:3665
+msgid "Fast Decode"
+msgstr "Bihurketa azkarra"
+
+#: src/ui/ghb.ui:3667
+msgid ""
+"Reduce decoder CPU usage.\n"
+"\n"
+"Set this if your device is struggling to play the output (dropped frames)."
+msgstr ""
+"Murriztu kodetzailearen CPUaren erabilera. \n"
+"\n"
+"Ezarri hau zure gailuak irteera erreproduzitzeko zailtasunak baditu (fotograma eroriak adibidez)."
+
+#: src/ui/ghb.ui:3682
+msgid "Zero Latency"
+msgstr "Latentzia zero"
+
+#: src/ui/ghb.ui:3684
+msgid ""
+"Minimize latency between input to encoder and output of decoder.\n"
+"\n"
+"This is useful for broadcast of live streams.\n"
+"\n"
+"Since HandBrake is not suitable for live stream broadcast purposes,\n"
+"this setting is of little value here."
+msgstr ""
+"Minimizatu latentzia kodetzailearen sarreraren eta irteeraren artean.\n"
+"\n"
+"Hau erabilgarria da zuzenekoetarako.\n"
+"\n"
+"HandBrake zuzenekoak egiteko prestatua ez dagoenez,\n"
+"ezarpen honek ez du balio handirik hemen."
+
+#: src/ui/ghb.ui:3702
+msgid "Profile:"
+msgstr "Profila:"
+
+#: src/ui/ghb.ui:3712
+msgid ""
+"Sets and ensures compliance with the specified profile.\n"
+"\n"
+"Overrides all other settings."
+msgstr ""
+"Zehaztutako profila ezartzen dela ziurtatzen du.\n"
+"\n"
+"Beste ezarpen guztiak gainidazten ditu."
+
+#: src/ui/ghb.ui:3725
+msgid "Level:"
+msgstr "Maila:"
+
+#: src/ui/ghb.ui:3735
+msgid ""
+"Sets and ensures compliance with the specified level.\n"
+"\n"
+"Overrides all other settings."
+msgstr ""
+"Zehaztutako maila ezartzen dela ziurtatzen du.\n"
+"\n"
+"Beste ezarpen guztiak gainidazten ditu."
+
+#: src/ui/ghb.ui:3751
+msgid "Additional Options:"
+msgstr "Aukera gehigarriak:"
+
+#: src/ui/ghb.ui:3791
+msgid "Audio"
+msgstr "Audio"
+
+#: src/ui/ghb.ui:3820
+msgid "Show audio default selection options"
+msgstr "Erakutsi audioaren hautapen aukera lehenetsiak"
+
+#: src/ui/ghb.ui:3834 src/ui/ghb.ui:3988
+msgid "Selection Behavior…"
+msgstr "Hautapen portaera..."
+
+#: src/ui/ghb.ui:3843
+msgid "Reload all audio settings from defaults"
+msgstr "Birkargatu audio ezarpenak lehenetsitakotik"
+
+#: src/ui/ghb.ui:3886 src/ui/ghb.ui:4040 src/ui/ghb.ui:4953
+msgid "Remove"
+msgstr "Kendu"
+
+#: src/ui/ghb.ui:3909 src/ui/ghb.ui:4063
+msgid "Clear"
+msgstr "Garbitu"
+
+#: src/ui/ghb.ui:3945
+msgid "Subtitles"
+msgstr "Azpitituluak"
+
+#: src/ui/ghb.ui:3961
+msgid "Tracks"
+msgstr "Pistak"
+
+#: src/ui/ghb.ui:3974
+msgid "Show subtitle default selection options"
+msgstr "Erakutsi azpitituluen hautapen aukera lehenetsiak"
+
+#: src/ui/ghb.ui:4099
+msgid "Chapters"
+msgstr "Kapituluak"
+
+#: src/ui/ghb.ui:4110 src/callbacks.c:2539 src/queuehandler.c:215
+msgid "Chapter Markers"
+msgstr "Kapitulu sortzialeak"
+
+#: src/ui/ghb.ui:4112
+msgid "Add chapter markers to output file."
+msgstr "Gehitu kapitulu markatzaileak irteera-fitxategia."
+
+#: src/ui/ghb.ui:4119
+msgid "Import Chapters"
+msgstr "Inportatu kapituluak"
+
+#: src/ui/ghb.ui:4121
+msgid "Import chapter list from an XML file"
+msgstr "Inportatu kapituluen zerrenda XML fitxategi batetik"
+
+#: src/ui/ghb.ui:4129
+msgid "Export Chapters"
+msgstr "Esportatu kapituluak"
+
+#: src/ui/ghb.ui:4131
+msgid "Export chapter list as an XML file"
+msgstr "Esportatu kapituluen zerrenda XML fitxategi gisa"
+
+#: src/ui/ghb.ui:4147
+msgid "Index"
+msgstr "Aurkibidea"
+
+#: src/ui/ghb.ui:4161
+msgid "Duration"
+msgstr "Iraupena"
+
+#: src/ui/ghb.ui:4167
+msgid "Title"
+msgstr "Titulua"
+
+#: src/ui/ghb.ui:4193
+msgid "Tags"
+msgstr "Etiketak"
+
+#: src/ui/ghb.ui:4231
+msgid "Actors:"
+msgstr "Aktoreak:"
+
+#: src/ui/ghb.ui:4259
+msgid "Director:"
+msgstr "Zuzendaria:"
+
+#: src/ui/ghb.ui:4287
+msgid "Release Date:"
+msgstr "Argitalpen data:"
+
+#: src/ui/ghb.ui:4315
+msgid "Comment:"
+msgstr "Iruzkina:"
+
+#: src/ui/ghb.ui:4343
+msgid "Genre:"
+msgstr "Generoa:"
+
+#: src/ui/ghb.ui:4371 src/ui/ghb.ui:6089 src/ui/ghb.ui:6241
+msgid "Description:"
+msgstr "Deskripzioa:"
+
+#: src/ui/ghb.ui:4399
+msgid "Plot:"
+msgstr "Sinopsia:"
+
+#: src/ui/ghb.ui:4450
+msgid "<b>Save As:</b>"
+msgstr "<b>Gorde honela:</b>"
+
+#: src/ui/ghb.ui:4462
+msgid "Destination filename for your encode."
+msgstr "Kodetzearen helburuaren fitxategi-izena"
+
+#: src/ui/ghb.ui:4476
+msgid "<b>To:</b>"
+msgstr "<b>Hona:</b>"
+
+#: src/ui/ghb.ui:4487
+msgid "Destination directory for your encode."
+msgstr "Kodetzearen direktorio helburua"
+
+#: src/ui/ghb.ui:4489 src/title-add.c:474
+msgid "Destination Directory"
+msgstr "Helburuaren direktorioa"
+
+#: src/ui/ghb.ui:4568
+msgid "Subtitle Selection Behavior"
+msgstr "Azpitituluak hautatzeko portaera"
+
+#: src/ui/ghb.ui:4837
+msgid "Audio Selection Behavior"
+msgstr "Audioa hautatzeko portaera"
+
+#: src/ui/ghb.ui:4867
+msgid "Track Selection Behavior:"
+msgstr "Pista hautatzeko portaera:"
+
+#: src/ui/ghb.ui:4878
+msgid "Choose which audio tracks of the source media are used."
+msgstr "Aukeratu iturburuko zein audio pista erabili diren."
+
+#: src/ui/ghb.ui:4926
+msgid ""
+"Create a list of languages you would like to select audio for.\n"
+"Tracks matching these languages will be selected using the chosen Selection Behavior."
+msgstr ""
+"Sortu zerrenda bat audiorako aukeratu nahi dituzun hizkuntzekin.\n"
+"Hizkuntza hauekin bat datozen pistak automatikoki hautatu ahal izango dira."
+
+#: src/ui/ghb.ui:4940 src/ui/ghb.ui:5322
+msgid "Add"
+msgstr "Gehitu"
+
+#: src/ui/ghb.ui:4966
+msgid "Available Languages"
+msgstr "Hizkuntza erabilgarriak"
+
+#: src/ui/ghb.ui:4975
+msgid "Selected Languages"
+msgstr "Hautatu hizkuntzak"
+
+#: src/ui/ghb.ui:4999
+msgid "Auto Passthru:"
+msgstr "Pasatze automatikoa:"
+
+#: src/ui/ghb.ui:5008
+msgid "MP2"
+msgstr "MP2"
+
+#: src/ui/ghb.ui:5010
+msgid ""
+"Enable this if your playback device supports MP2.\n"
+"This permits MP2 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak MP2 onartzen badu.\n"
+"Honen bidez, MP2 aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5023
+msgid "MP3"
+msgstr "MP3"
+
+#: src/ui/ghb.ui:5025
+msgid ""
+"Enable this if your playback device supports MP3.\n"
+"This permits MP3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak MP3 onartzen badu.\n"
+"Honen bidez, MP3 aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5038
+msgid "AC-3"
+msgstr "AC-3"
+
+#: src/ui/ghb.ui:5040
+msgid ""
+"Enable this if your playback device supports AC-3.\n"
+"This permits AC-3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak AC-3 onartzen badu.\n"
+"Honen bidez, AC-3 aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5053
+msgid "EAC-3"
+msgstr "EAC-3"
+
+#: src/ui/ghb.ui:5055
+msgid ""
+"Enable this if your playback device supports EAC-3.\n"
+"This permits EAC-3 passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak EAC-3 onartzen badu.\n"
+"Honen bidez, EAC-3 aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5068
+msgid "DTS"
+msgstr "DTS"
+
+#: src/ui/ghb.ui:5070
+msgid ""
+"Enable this if your playback device supports DTS.\n"
+"This permits DTS passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak DTS onartzen badu.\n"
+"Honen bidez, DTS aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5083
+msgid "DTS-HD"
+msgstr "DTS-HD"
+
+#: src/ui/ghb.ui:5085
+msgid ""
+"Enable this if your playback device supports DTS-HD.\n"
+"This permits DTS-HD passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak DTS-HD onartzen badu.\n"
+"Honen bidez, DTS-HD aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5098
+msgid "TrueHD"
+msgstr "TrueHD"
+
+#: src/ui/ghb.ui:5100
+msgid ""
+"Enable this if your playback device supports TrueHD.\n"
+"This permits TrueHD passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak TrueHD onartzen badu.\n"
+"Honen bidez, TrueHD aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5113
+msgid "ALAC"
+msgstr ""
+
+#: src/ui/ghb.ui:5115
+msgid ""
+"Enable this if your playback device supports ALAC.\n"
+"This permits ALAC passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+
+#: src/ui/ghb.ui:5128
+msgid "FLAC"
+msgstr "FLAC"
+
+#: src/ui/ghb.ui:5130
+msgid ""
+"Enable this if your playback device supports FLAC.\n"
+"This permits FLAC passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak FLAC onartzen badu.\n"
+"Honen bidez, FLAC aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5143
+msgid "AAC"
+msgstr "AAC"
+
+#: src/ui/ghb.ui:5145
+msgid ""
+"Enable this if your playback device supports AAC.\n"
+"This permits AAC passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak AAC onartzen badu.\n"
+"Honen bidez, AAC aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5158
+msgid "Vorbis"
+msgstr ""
+
+#: src/ui/ghb.ui:5160
+msgid ""
+"Enable this if your playback device supports Vorbis.\n"
+"This permits Vorbis passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+
+#: src/ui/ghb.ui:5173
+msgid "Opus"
+msgstr "Opus"
+
+#: src/ui/ghb.ui:5175
+msgid ""
+"Enable this if your playback device supports Opus.\n"
+"This permits Opus passthru to be selected when automatic passthru selection is enabled."
+msgstr ""
+"Gaitu hau zure erreprodukzio-gailuak Opus onartzen badu.\n"
+"Honen bidez, Opus aukera daiteke aukeraketa automatikoa gaituta dagoenean."
+
+#: src/ui/ghb.ui:5196
+msgid "Passthru Fallback:"
+msgstr "Badaezpadako bidea:"
+
+#: src/ui/ghb.ui:5202
+msgid ""
+"Set the audio codec to encode with when a suitable track can not be found "
+"for audio passthru."
+msgstr ""
+"Ezarri audioa kodek honekin kodetzeko, audioaren pasabiderako pista egokirik"
+" aurkitu ezin denean."
+
+#: src/ui/ghb.ui:5218
+msgid "Audio encoder settings for each selected track:"
+msgstr ""
+
+#: src/ui/ghb.ui:5219
+msgid "Each selected source track will be encoded with all selected encoders"
+msgstr ""
+"Hautatutako iturburuko pista bakoitza hautatutako kodetzaile guztiekin "
+"kodetuko da."
+
+#: src/ui/ghb.ui:5229
+msgid "Encoder"
+msgstr "Kodetzailea"
+
+#: src/ui/ghb.ui:5235
+msgid "Bitrate/Quality"
+msgstr "Bit ratioa/Kalitatea"
+
+#: src/ui/ghb.ui:5241
+msgid "Mixdown"
+msgstr "Nahasketa"
+
+#: src/ui/ghb.ui:5247
+msgid "Samplerate"
+msgstr "Sampleratea"
+
+#: src/ui/ghb.ui:5253 src/queuehandler.c:550
+msgid "Gain"
+msgstr "Irabazia"
+
+#: src/ui/ghb.ui:5259
+msgid "DRC"
+msgstr "DRC"
+
+#: src/ui/ghb.ui:5287
+msgid "Add Track"
+msgstr "Gehitu Pista"
+
+#: src/ui/ghb.ui:5288
+msgid ""
+"Add an audio encoder.\n"
+"Each selected source track will be encoded with all selected encoders."
+msgstr ""
+"Gehitu audio kodetzaile bat.\n"
+"Hautatutako pista bakoitza hautatutako kodetzaile guztiekin kodetuko da."
+
+#: src/ui/ghb.ui:5295
+msgid "Use only first encoder for secondary audio"
+msgstr "Erabili soilik lehenengo kodetzailea audio sekundariorako."
+
+#: src/ui/ghb.ui:5297
+msgid ""
+"Only the primary audio track will be encoded with the full encoder list.\n"
+"  All other secondary audio output tracks will be encoded with first encoder only."
+msgstr ""
+
+#: src/ui/ghb.ui:5310
+msgid "Add Multiple Titles"
+msgstr "Gehitu hainbat titulu"
+
+#: src/ui/ghb.ui:5316 src/ui/ghb.ui:6032 src/ui/ghb.ui:6122
+#: src/hb-backend.c:4477 src/hb-backend.c:4527 src/hb-backend.c:4544
+#: src/hb-backend.c:4561 src/hb-backend.c:4618 src/hb-backend.c:4670
+#: src/presets.c:2123 src/presets.c:2505 src/presets.c:2730
+#: src/title-add.c:124 src/title-add.c:134
+msgid "Cancel"
+msgstr "Utzi"
+
+#: src/ui/ghb.ui:5340
+msgid "Select All"
+msgstr "Hautatu denak"
+
+#: src/ui/ghb.ui:5342
+msgid "Mark all titles for adding to the queue"
+msgstr "Markatu ilarara gehituko diren titulu guztiak"
+
+#: src/ui/ghb.ui:5351
+msgid "Clear All"
+msgstr "Garbitu dena"
+
+#: src/ui/ghb.ui:5353
+msgid "Unmark all titles"
+msgstr "Desmarkatu titulu guztiak"
+
+#: src/ui/ghb.ui:5362
+msgid "Invert Selection"
+msgstr "Alderantzikatu hautaketa"
+
+#: src/ui/ghb.ui:5395 src/title-add.c:351
+msgid "Destination files OK.  No duplicates detected."
+msgstr "Helburuko fitxategiak ondo. Ez da bikoizketarik atzeman."
+
+#: src/ui/ghb.ui:5407
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: src/ui/ghb.ui:5452
+msgid "General"
+msgstr "Orokorra"
+
+#: src/ui/ghb.ui:5459
+msgid "Use automatic naming (uses modified source name)"
+msgstr ""
+"Erabili izendatze automatikoa (aldatutako iturburu izena erabiltzen du)"
+
+#: src/ui/ghb.ui:5461
+msgid "Create destination filename from source filename or volume label"
+msgstr ""
+"Hartu helmugako fitxategiaren izena iturburu-fitxategiaren izenetik edo "
+"bolumen-etiketatik"
+
+#: src/ui/ghb.ui:5476
+msgid "Auto-Name Template"
+msgstr "Auto-izendatzeko txantiloia"
+
+#: src/ui/ghb.ui:5484
+msgid ""
+"Available Options: {source-path} {source} {title} {preset} {chapters} {date}"
+" {time} {creation-date} {creation-time} {modification-date} {modification-"
+"time} {codec} {bit-depth} {quality} {bitrate} {width} {height}"
+msgstr ""
+"Aukera eskuragarriak: {iturburu-bidea} {iturburua} {titulua} {aurrezarpena} "
+"{kapituluak} {data} {ordua} {sorkuntza-data} {sorkuntza-ordua} {aldaketa-"
+"data} {aldaketa-ordua} {kodeka} {bit-sakonera} {kalitatea} {bitratea} "
+"{zabalera} {altuera}"
+
+#: src/ui/ghb.ui:5498
+msgid "Use iPod/iTunes friendly (.m4v) file extension for MP4"
+msgstr "Erabili iPod/iTunes-en gogoko (.m4v) fitxategi luzapena  MP4rako"
+
+#: src/ui/ghb.ui:5509
+msgid "Number of previews"
+msgstr "Aurrebista kopurua"
+
+#: src/ui/ghb.ui:5532
+msgid "Minimum DVD/Blu-ray title duration (seconds)"
+msgstr "DVD/Blu-ray tituluaren gutxieneko iraupena (segunduak)"
+
+#: src/ui/ghb.ui:5555
+msgid "Maximum DVD/Blu-ray title duration (seconds)"
+msgstr ""
+
+#: src/ui/ghb.ui:5575
+msgid "Keep duplicate titles"
+msgstr ""
+
+#: src/ui/ghb.ui:5581
+msgid "Use the same settings for all titles in a batch"
+msgstr "Erabili ezarpen berdinak sorta bateko titulu guztientzat"
+
+#: src/ui/ghb.ui:5583
+msgid ""
+"When checked, every title will use the same settings when adding a\n"
+"batch of titles to the queue.\n"
+"\n"
+"Uncheck this if you want to allow changing each title's settings independently."
+msgstr ""
+"Hautatuta, titulu bakoitzak ezarpen berdina erabiliko du\n"
+"titulu-sorta ilaran gehitzerakoan.\n"
+"\n"
+"Desmarkatu hau titulu bakoitzaren ezarpenak modu independentean aldatzea baimendu nahi baduzu."
+
+#: src/ui/ghb.ui:5593
+msgid "Show preview image in Summary tab"
+msgstr "Erakutsi aurrebista irudia 'Laburpena' leihoan"
+
+#: src/ui/ghb.ui:5596
+msgid ""
+"Uncheck this if you want to hide the video preview image on the Summary tab "
+"for privacy reasons."
+msgstr ""
+"Desmarkatu hau bideoaren aurrebista irudia 'Laburpena' leihoan ezkutatu nahi"
+" baduzu pribatutasun arrazoiengatik."
+
+#: src/ui/ghb.ui:5605
+msgid "Excluded File Extensions:"
+msgstr "Baztertutako fitxategi-luzapenak:"
+
+#: src/ui/ghb.ui:5614
+msgid ""
+"The following file extensions will be ignored when scanning a folder. The "
+"list is case insensitive."
+msgstr ""
+
+#: src/ui/ghb.ui:5624
+msgctxt "Queue tab in Preferences window"
+msgid "Queue"
+msgstr "Ilara"
+
+#: src/ui/ghb.ui:5637
+msgid "Pause queue if disk space is lower than:"
+msgstr "Pausatu ilara diskoko espazioa hau baino txikiagoa bada:"
+
+#: src/ui/ghb.ui:5653
+msgid "Disk Free Space Limit"
+msgstr "Diskoko espazio librearen muga"
+
+#: src/ui/ghb.ui:5661 src/queuehandler.c:798 src/queuehandler.c:1288
+msgid "GB"
+msgstr "GB"
+
+#: src/ui/ghb.ui:5671
+msgid "Clear completed jobs after an encode completes"
+msgstr "Garbitu amaitutako lanak kodetze bat amaitu ondoren"
+
+#: src/ui/ghb.ui:5673
+msgid ""
+"By default, completed jobs remain in the queue and are marked as complete.\n"
+"  Check this if you want the queue to clean itself up by deleting completed jobs."
+msgstr ""
+
+#: src/ui/ghb.ui:5681
+msgid "Power Saving"
+msgstr "Energia aurreztea"
+
+#: src/ui/ghb.ui:5695
+msgid "Pause encoding when in Power Saver mode"
+msgstr "Pausatu kodeketa 'Energia aurrezteko moduan' dagoenean"
+
+#: src/ui/ghb.ui:5699
+msgid ""
+"If checked, encoding will be paused when the device\n"
+"enters Power Saver mode. Encoding will resume when\n"
+"Power Saver mode is disabled."
+msgstr ""
+"Hautatzen bada, kodeketa pausatuko da \n"
+"'Energia aurrezteko moduan' dagoenean. Kodeketa \n"
+"berrekingo da 'Energia aurrezteko modua' desgaitzean."
+
+#: src/ui/ghb.ui:5707
+msgid "Pause encoding when on battery power"
+msgstr "Pausatu kodeketak bateria erabiltzen denean"
+
+#: src/ui/ghb.ui:5711
+msgid ""
+"If checked, encoding will be paused when charger is\n"
+"unplugged. Encoding will resume when reconnected to\n"
+"a mains power source."
+msgstr ""
+"Hautatzen bada, kodeketa eten egingo da \n"
+"kargagailua deskonektatuta dagoenean. Kodetzea \n"
+"berrekingo da kargagailua konektatzen denean."
+
+#: src/ui/ghb.ui:5719
+msgid "Pause encoding when battery is low"
+msgstr "Pausatu kodeketa bateria gutxi dagoenean"
+
+#: src/ui/ghb.ui:5723
+msgid ""
+"If checked, encoding will be paused when the battery\n"
+"level is low. Encoding will resume when the\n"
+"battery is charged."
+msgstr ""
+"Hautatuta badago, kodeketa pausatu egingo da \n"
+"bateria-maila baxua denean. Kodetzea berriro\n"
+"hasiko da bateria kargatzean."
+
+#: src/ui/ghb.ui:5735
+msgid "When Done"
+msgstr "Bukatzean"
+
+#: src/ui/ghb.ui:5747
+msgid "Default action when queue is completed:"
+msgstr "Ekintza lehenetsia ilara amaitzean:"
+
+#: src/ui/ghb.ui:5760
+msgid "Show notification when queue is completed"
+msgstr "Erakutsi jakinarazpena ilara amaitzean"
+
+#: src/ui/ghb.ui:5768
+msgid "Show notification when each item is completed"
+msgstr "Erakutsi jakinarazpena lan bakoitza amaitzean"
+
+#: src/ui/ghb.ui:5780
+msgid "Advanced"
+msgstr "Aurreratua"
+
+#: src/ui/ghb.ui:5796
+msgid "Set a custom directory for Handbrake temporary files"
+msgstr ""
+"Ezarri direktorio pertsonalizatu bat Handbrake-ren aldi baterako "
+"fitxategietarako"
+
+#: src/ui/ghb.ui:5798 src/ui/ghb.ui:5814
+msgid ""
+"Temporary files that HandBrake creates will be placed under this directory.\n"
+"\n"
+"  Changing this setting will require restarting HandBrake.\n"
+"\n"
+"  This setting overrides the TEMP environment variable that is normally used to define this directory.\n"
+"\n"
+"  Flatpak users may need to set this for certain workflows to work properly. The default size of the TEMP directory in a flatpak sandbox is 1/2 physical memory size and may be too small for things like the 2-pass stats file."
+msgstr ""
+
+#: src/ui/ghb.ui:5823
+msgid "Temp Directory"
+msgstr "Behin-behineko direktorioa"
+
+#: src/ui/ghb.ui:5846
+msgid "Constant Quality fractional granularity"
+msgstr "Kalitate konstantearen zatikako granulartasuna"
+
+#: src/ui/ghb.ui:5858
+msgid "Use dvdnav (instead of libdvdread)"
+msgstr "Erabili dvdnav (libdvdread-en ordez)"
+
+#: src/ui/ghb.ui:5876
+msgid "Put individual encode logs in same location as movie"
+msgstr "Jarri kodetze erregistro indibidualak filmaren leku berean"
+
+#: src/ui/ghb.ui:5896
+msgid "Activity Log Verbosity Level"
+msgstr "Jardueren erregistroaren hitz-jario maila"
+
+#: src/ui/ghb.ui:5915
+msgid "Activity Log Longevity"
+msgstr "Jardueren erregistroaren iraupena"
+
+#: src/ui/ghb.ui:5928
+msgid "Scale down High Definition previews"
+msgstr "Txikitu bereizmen handiko aurrebistak"
+
+#: src/ui/ghb.ui:5940
+msgid "Automatically Scan DVD when loaded"
+msgstr "Eskaneatu automatikoki DVDak"
+
+#: src/ui/ghb.ui:5942
+msgid "Scans the DVD whenever a new disc is loaded"
+msgstr "DVDa eskaneatzen du disko berri bat kargatzen den bakoitzean"
+
+#: src/ui/ghb.ui:5969
+msgid "Activity Window Font Size"
+msgstr "Jarduera leihoaren letra-tamaina"
+
+#: src/ui/ghb.ui:5987
+msgid "Allow Tweaks"
+msgstr "Onartu doikuntzak"
+
+#: src/ui/ghb.ui:6000
+msgid "Allow HandBrake For Dummies"
+msgstr "Baimendu HandBrake mozoloentzako"
+
+#: src/ui/ghb.ui:6024
+msgid "Rename Preset"
+msgstr "Berrizendatu aurrezarpena"
+
+#: src/ui/ghb.ui:6068 src/ui/ghb.ui:6202
+msgid "Preset Name:"
+msgstr "Aurrezarpenen izena:"
+
+#: src/ui/ghb.ui:6114
+msgid "New Preset"
+msgstr "Aurrezarpen berria"
+
+#: src/ui/ghb.ui:6157
+msgid "Category:"
+msgstr "Kategoria:"
+
+#: src/ui/ghb.ui:6167
+msgid "Set the category that this preset will be shown under."
+msgstr "Ezarri zein kategoriatan erakutsiko den aurrezarpen hau."
+
+#: src/ui/ghb.ui:6178
+msgid "Category Name:"
+msgstr "Kategoriaren izena:"
+
+#: src/ui/ghb.ui:6227
+msgid "Default Preset"
+msgstr "Aurrezarpen lehenetsiak"
+
+#: src/ui/ghb.ui:6229
+msgid "Make this the default Preset when HandBrake starts"
+msgstr "Egin hau lehenetsitako aurrezarpena HandBrake abiaraztean"
+
+#: src/ui/ghb.ui:6268
+msgid "HandBrake Preview"
+msgstr "HandBrake-ren aurrebista"
+
+#: src/ui/ghb.ui:6336
+msgid "Select preview frames."
+msgstr "Hautatu aurrebistaren fotogramak."
+
+#: src/ui/ghb.ui:6351 src/preview.c:167
+msgid ""
+"Encode and play a short sequence of video starting from the current preview "
+"position."
+msgstr ""
+"Kodetu eta erreproduzitu bideo sekuentzia labur bat uneko aurrebista-"
+"posiziotik hasita."
+
+#: src/ui/ghb.ui:6364
+msgid "Preview Video Position"
+msgstr "Aurrikusi bideoaren posizioa"
+
+#: src/ui/ghb.ui:6377
+msgid "Preview Encode Progress"
+msgstr "Aurrikusi kodetzearen aurrerapena"
+
+#: src/ui/ghb.ui:6386
+msgid "Click to toggle full screen mode"
+msgstr "Klikatu pantaila osoko modua aldatzeko"
+
+#: src/ui/ghb.ui:6401
+msgid "<b>Duration:</b>"
+msgstr "<b>Iraupena:</b>"
+
+#: src/ui/ghb.ui:6409
+msgid "Set the duration of the live preview in seconds."
+msgstr "Ezarri zuzeneko aurrebistaren iraupena segundotan."
+
+#: src/ui/ghb.ui:6419
+msgid "Source Resolution"
+msgstr "Iturburuaren bereizmena"
+
+#: src/ui/ghb.ui:6422
+msgid "Reset preview window to the source video's resolution"
+msgstr "Berrezarri aurrebista leihoa iturburuko bideoaren bereizmenera"
+
+#: src/ui/ghb-chapter-row.ui:38
+msgid "Chapter Title"
+msgstr "Kapituluaren Izenburua"
+
+#: src/ui/ghb-file-button.ui:23 src/ghb-file-button.c:293
+msgid "(None)"
+msgstr "(Batere ez)"
+
+#: src/ui/ghb-queue-row.ui:17 src/ghb-queue-row.c:272 src/ghb-queue-row.c:288
+msgid "Pending Queue Item"
+msgstr "Lanak ilaran zain"
+
+#: src/ui/ghb-queue-row.ui:31
+msgid "Delete this item"
+msgstr "Ezabatu elementu hau"
+
+#: src/ui/ghb-queue-row.ui:52
+msgid "Encode Progress"
+msgstr "Kodetzearen Aurrerapena"
+
+#. Audio DRC Label
+#: src/audiohandler.c:427 src/audiohandler.c:772 src/audiohandler.c:1183
+#: src/audiohandler.c:1937 src/callbacks.c:5500 src/hb-backend.c:180
+#: src/hb-backend.c:193 src/hb-backend.c:205 src/hb-backend.c:230
+#: src/hb-backend.c:301 src/hb-backend.c:313 src/hb-backend.c:325
+#: src/hb-backend.c:386
+#, c-format
+msgid "Off"
+msgstr "Desaktibatuta"
+
+#: src/audiohandler.c:439 src/audiohandler.c:768 src/audiohandler.c:1253
+#, c-format
+msgid "%ddB"
+msgstr "%ddB"
+
+#: src/audiohandler.c:744
+msgid "Quality: "
+msgstr "Kalitatea:"
+
+#: src/audiohandler.c:751
+#, c-format
+msgid "Bitrate: %dkbps\n"
+msgstr "Bit-tasa:%dkbps\n"
+
+#: src/audiohandler.c:763
+#, c-format
+msgid "%.4gkHz"
+msgstr "%.4gkHz"
+
+#: src/audiohandler.c:778
+#, c-format
+msgid "<small>%d - %s (%.4gkHz)</small>"
+msgstr "<small>%d - %s (%.4gkHz)</small>"
+
+#: src/audiohandler.c:783
+#, c-format
+msgid "Bitrate: %.4gkbps"
+msgstr "Bit-tasa: %.4gkbps"
+
+#: src/audiohandler.c:789
+#, c-format
+msgid "<small>Passthru</small>"
+msgstr ""
+
+#: src/audiohandler.c:798
+#, c-format
+msgid ""
+"%sGain: %s\n"
+"DRC: %s\n"
+"Track Name: %s"
+msgstr ""
+"%sGanantzia: %s\n"
+"DRC: %s\n"
+"Pistaren izena: %s"
+
+#: src/audiohandler.c:803
+#, c-format
+msgid ""
+"%sGain: %s\n"
+"DRC: %s"
+msgstr ""
+"%sGanantzia: %s\n"
+"DRC: %s"
+
+#: src/audiohandler.c:1409
+msgid "Add Audio Track"
+msgstr "Gehitu audio pista"
+
+#: src/audiohandler.c:1501
+msgid "Edit Audio Track"
+msgstr "Editatu audio pista"
+
+#: src/audiohandler.c:1774
+msgid "Set the audio codec to encode this track with."
+msgstr "Ezarri kodeka audio pista hau kodetzeko."
+
+#: src/audiohandler.c:1788
+msgid "Bitrate"
+msgstr "Bit ratioa:"
+
+#: src/audiohandler.c:1806
+msgid "Set the bitrate to encode this track with."
+msgstr "Ezarri pista hau kodetzeko bit-tasa."
+
+#: src/audiohandler.c:1831
+msgid ""
+"<b>Audio Quality:</b>\n"
+"For encoders that support it, adjust the quality of the output."
+msgstr ""
+"<b>Audioaren kalitatea:</b>\n"
+"Onartzen duten kodetzaileetan, doitu irteerako fitxategiaren kalitatea."
+
+#: src/audiohandler.c:1858
+msgid "Set the mixdown of the output audio track."
+msgstr "Ezarri irteerako audio pistaren nahasketa."
+
+#: src/audiohandler.c:1871
+msgid "Set the sample rate of the output audio track."
+msgstr "Ezarri irteerako audio pistaren lagin-tasa."
+
+#: src/audiohandler.c:1892
+msgid ""
+"<b>Audio Gain:</b> Adjust the amplification or attenuation of the output "
+"audio track."
+msgstr ""
+"<b>Audio ganantzia:</b> Doitu irteerako audio pistaren anplifikazioa edo "
+"atenuazioa."
+
+#. Audio Gain Label
+#: src/audiohandler.c:1903
+msgid "0dB"
+msgstr "0dB"
+
+#: src/audiohandler.c:1923
+msgid ""
+"<b>Dynamic Range Compression:</b> Adjust the dynamic range of the output audio track.\n"
+"\n"
+"For source audio that has a wide dynamic range (very loud and very soft sequences),\n"
+"DRC allows you to 'compress' the range by making loud sounds softer and soft sounds louder."
+msgstr ""
+"<b>Tarte Dinamikoko Konpresioa:</b> Doitu irteerako audio-pistaren tarte dinamikoa.\n"
+"\n"
+"Tarte dinamiko zabala duen audiorako (sekuentzia oso ozenak eta oso leunak),\n"
+"TDK-k tartea 'konprimitzeko' aukera ematen dizu, soinu ozenak leunagoak eta soinu leunak ozenagoak eginez."
+
+#: src/audiohandler.c:1954
+msgid "Remove this audio encoder"
+msgstr "Kendu audio kodetzaile hau"
+
+#: src/callbacks.c:296
+msgid "An encode is in progress."
+msgstr ""
+
+#: src/callbacks.c:1125 src/callbacks.c:1136 src/callbacks.c:1792
+msgid "Not Selected"
+msgstr "Ez hautatua"
+
+#: src/callbacks.c:1134
+msgid "Detected DVD devices:"
+msgstr "Antzeman diren DVD gailuak:"
+
+#. This needs to be in scanning and working since scanning
+#. happens fast enough that it can be missed
+#: src/callbacks.c:1461 src/callbacks.c:4613
+msgid "Scanning ..."
+msgstr "Eskaneatzen ..."
+
+#: src/callbacks.c:1493 src/callbacks.c:1494 src/callbacks.c:1516
+#: src/callbacks.c:1517
+msgid "Stop Scan"
+msgstr "Gelditu eskaneatzea"
+
+#: src/callbacks.c:1873
+msgid "Open Source Directory"
+msgstr "Ireki iturri-direktorioa"
+
+#: src/callbacks.c:1876 src/chapters.c:483 src/ghb-file-button.c:222
+#: src/presets.c:2216 src/queuehandler.c:1469
+msgid "_Open"
+msgstr "Ireki"
+
+#: src/callbacks.c:1877 src/callbacks.c:2142 src/chapters.c:456
+#: src/chapters.c:484 src/ghb-file-button.c:355 src/presets.c:2217
+#: src/presets.c:2332 src/queuehandler.c:1387 src/queuehandler.c:1470
+msgid "_Cancel"
+msgstr "Utzi"
+
+#: src/callbacks.c:1884
+msgid "Recursively scan directories"
+msgstr ""
+
+#: src/callbacks.c:1896
+msgid "Single Title"
+msgstr "Izenburu bakarra"
+
+#: src/callbacks.c:2253 src/callbacks.c:2397
+msgid "FPS"
+msgstr "FPS"
+
+#: src/callbacks.c:2257
+#, c-format
+msgid "Dolby Vision %d.%d"
+msgstr "Dolby Vision %d.%d"
+
+#: src/callbacks.c:2261 src/callbacks.c:2264
+msgid "HDR10+"
+msgstr "HDR10+"
+
+#: src/callbacks.c:2266
+msgid "HDR10"
+msgstr "HDR10"
+
+#: src/callbacks.c:2268
+msgid "HDR"
+msgstr "HDR"
+
+#: src/callbacks.c:2270
+msgid "SDR"
+msgstr "SDR"
+
+#. TRANSLATORS: This is the bit depth of the video
+#: src/callbacks.c:2278
+#, c-format
+msgid "%d-bit"
+msgstr "%d-bit"
+
+#: src/callbacks.c:2300
+msgid "Audio Track"
+msgid_plural "Audio Tracks"
+msgstr[0] "Audio pistak"
+msgstr[1] "Audio pistak"
+
+#: src/callbacks.c:2303
+msgid "Subtitle Track"
+msgid_plural "Subtitle Tracks"
+msgstr[0] "Azpititulu pistak"
+msgstr[1] "Azpititulu pistak"
+
+#: src/callbacks.c:2401
+msgid "CFR"
+msgstr "CFR"
+
+#: src/callbacks.c:2405
+msgid "PFR"
+msgstr "PFR"
+
+#: src/callbacks.c:2409
+msgid "VFR"
+msgstr "VFR"
+
+#: src/callbacks.c:2451
+#, c-format
+msgid "+ %d more audio track"
+msgid_plural "+ %d more audio tracks"
+msgstr[0] "+ %d audio pista gehiago"
+msgstr[1] "+ %d audio pista gehiago"
+
+#: src/callbacks.c:2482 src/queuehandler.c:587 src/queuehandler.c:1022
+#: src/subtitlehandler.c:415 src/subtitlehandler.c:1292
+msgid "Foreign Audio Scan"
+msgstr "Kanpoko audioaren eskaneatzea"
+
+#: src/callbacks.c:2485 src/callbacks.c:2517 src/queuehandler.c:590
+#: src/queuehandler.c:627
+#, c-format
+msgid ", Forced Only"
+msgstr ", Behartuak bakarrik"
+
+#: src/callbacks.c:2489 src/callbacks.c:2521 src/queuehandler.c:594
+#: src/queuehandler.c:631
+#, c-format
+msgid ", Burned"
+msgstr ", Erreta"
+
+#: src/callbacks.c:2493 src/callbacks.c:2525 src/queuehandler.c:598
+#: src/queuehandler.c:635
+#, c-format
+msgid ", Default"
+msgstr ", Lehenetsia"
+
+#: src/callbacks.c:2531
+#, c-format
+msgid "+ %d more subtitle track"
+msgid_plural "+ %d more subtitle tracks"
+msgstr[0] "+ %d azpititulu pista gehiago"
+msgstr[1] "+ %d azpititulu pista gehiago"
+
+#: src/callbacks.c:2686
+msgid "storage"
+msgstr "biltegiratzea"
+
+#: src/callbacks.c:2687
+msgid "display"
+msgstr "bistaratzea"
+
+#: src/callbacks.c:2688
+msgid "Pixel Aspect Ratio"
+msgstr "Pixelen aspektu erlazioa"
+
+#: src/callbacks.c:2689
+msgid "Display Aspect Ratio"
+msgstr "Bistaratze aspektu erlazioa"
+
+#: src/callbacks.c:2824 src/hb-backend.c:2216 src/hb-backend.c:2337
+#: src/hb-backend.c:2349
+msgid "No Title Found"
+msgstr "Ez da titulurik aurkitu"
+
+#: src/callbacks.c:2825
+msgid "New Video"
+msgstr "Bideo berria"
+
+#: src/callbacks.c:3821
+msgid "Temp Directory Changed"
+msgstr ""
+
+#: src/callbacks.c:3822
+msgid "You must restart HandBrake now."
+msgstr "HandBrake berrabiarazi behar duzu orain."
+
+#: src/callbacks.c:3849 src/callbacks.c:3859 src/callbacks.c:3877
+#: src/callbacks.c:3926
+#, c-format
+msgid "%s in %d seconds…"
+msgstr "%s in %d seconds…"
+
+#: src/callbacks.c:4132
+msgid "Stop Encoding?"
+msgstr "Kodetzea gelditu?"
+
+#: src/callbacks.c:4133 src/callbacks.c:4158 src/queuehandler.c:1695
+msgid "Your movie will be lost if you don't continue encoding."
+msgstr ""
+
+#: src/callbacks.c:4134 src/queuehandler.c:1626
+msgid "Cancel Current and Stop"
+msgstr "Utzi unekoa eta gelditu ilara"
+
+#: src/callbacks.c:4134
+msgid "Cancel Current, Start Next"
+msgstr "Utzi unekoa eta hasi hurrengoa"
+
+#: src/callbacks.c:4135
+msgid "Finish Current and Stop"
+msgstr ""
+
+#: src/callbacks.c:4135 src/callbacks.c:4159 src/queuehandler.c:1696
+msgid "Continue Encoding"
+msgstr "Jarraitu kodetzen"
+
+#: src/callbacks.c:4157
+msgid "Quit HandBrake?"
+msgstr "HandBrake itxi?"
+
+#: src/callbacks.c:4159
+msgid "Cancel All and Quit"
+msgstr "Utzi guztiak eta irten"
+
+#: src/callbacks.c:4325
+#, c-format
+msgid "%d encode pending"
+msgid_plural "%d encodes pending"
+msgstr[0] "%d kodetze geratzen dira"
+msgstr[1] "%d kodetze geratzen dira"
+
+#: src/callbacks.c:4384 src/callbacks.c:4452
+#, c-format
+msgid "job %d of %d, "
+msgstr "%d. lana %d-tik,"
+
+#: src/callbacks.c:4394
+#, c-format
+msgid "pass %d (subtitle scan) of %d, "
+msgstr "%d. itzulia (azpitituluen eskaneatzea) %d-tik, "
+
+#: src/callbacks.c:4399
+#, c-format
+msgid "pass %d of %d, "
+msgstr "%d. itzulia %d-tik, "
+
+#: src/callbacks.c:4412
+#, c-format
+msgid "Encoding: %s%s%.2f %% (%.2f fps, avg %.2f fps, ETA %02dh%02dm%02ds)"
+msgstr "Kodetzen: %s%s%.2f %% (%.2f fps, avg %.2f fps, ETA %02do%02dm%02ds)"
+
+#: src/callbacks.c:4422 src/callbacks.c:4462
+#, c-format
+msgid "Encoding: %s%s%.2f %% (ETA %02dh%02dm%02ds)"
+msgstr "Kodetzen: %s%s%.2f %% (ETA %02do%02dm%02ds)"
+
+#: src/callbacks.c:4432 src/callbacks.c:4471
+#, c-format
+msgid "Encoding: %s%s%.2f %%"
+msgstr "Kodetzen: %s%s%.2f %%"
+
+#: src/callbacks.c:4458
+#, c-format
+msgid "Searching for start time, "
+msgstr "Hasiera ordua bilatzen,"
+
+#: src/callbacks.c:4533
+#, c-format
+msgid "Scanning title %d of %d..."
+msgstr "%d. titulua eskaneatzen %d-tik ..."
+
+#: src/callbacks.c:4537
+#, c-format
+msgid "Scanning title %d of %d preview %d..."
+msgstr "%d. titulua eskaneatzen %d-tik.  %d. aurrebista ..."
+
+#: src/callbacks.c:4624
+msgid "Paused"
+msgstr "Pausatuta"
+
+#: src/callbacks.c:4651
+msgid "Encode Done!"
+msgstr "Kodetzea eginda!"
+
+#: src/callbacks.c:4656
+msgid "Encode Canceled."
+msgstr "Kodetzea bertan behera."
+
+#: src/callbacks.c:4661
+msgid "Encode Failed."
+msgstr "Kodetzeak huts egin du."
+
+#: src/callbacks.c:4703
+msgid "Muxing: This may take a while..."
+msgstr "Muxeatzen: honek denbora pixka bat beharko du..."
+
+#: src/callbacks.c:5513 src/callbacks.c:5520 src/callbacks.c:5528
+msgid "Your encode is complete."
+msgstr "Zure kodetzea osatu da."
+
+#: src/callbacks.c:5514
+msgid "Quitting HandBrake"
+msgstr "HandBrake ixten"
+
+#: src/callbacks.c:5521
+msgid "Putting computer to sleep"
+msgstr "Ordenagailua lotara eramaten"
+
+#: src/callbacks.c:5529
+msgid "Shutting down the computer"
+msgstr "Ordenagailua itzaltzen"
+
+#. Add filters
+#: src/callbacks.c:5643 src/chapters.c:458 src/chapters.c:486
+#: src/presets.c:2219 src/queuehandler.c:1473
+msgid "All Files"
+msgstr "Fitxategi guztiak"
+
+#: src/chapters.c:459 src/chapters.c:487
+msgid "Chapters (*.xml)"
+msgstr "Kapituluak (*.xml)"
+
+#: src/ghb-file-button.c:72
+msgid "Select a File"
+msgstr "Hautatu fitxategi bat"
+
+#: src/ghb-file-button.c:217
+msgid "_Select"
+msgstr "_Aukeratu"
+
+#: src/ghb-queue-row.c:267
+msgid "Running Queue Item"
+msgstr ""
+
+#: src/ghb-queue-row.c:276
+msgid "Failed Queue Item"
+msgstr ""
+
+#: src/ghb-queue-row.c:280
+msgid "Cancelled Queue Item"
+msgstr ""
+
+#: src/ghb-queue-row.c:284
+msgid "Completed Queue Item"
+msgstr ""
+
+#: src/hb-backend.c:55 src/hb-backend.c:80
+msgid "First Matching Selected Languages"
+msgstr ""
+
+#: src/hb-backend.c:56 src/hb-backend.c:81
+msgid "All Matching Selected Languages"
+msgstr ""
+
+#: src/hb-backend.c:67
+msgid "Foreign Audio Subtitle Track"
+msgstr "Kanpoko audio azpititulu pista"
+
+#: src/hb-backend.c:68
+msgid "First Selected Track"
+msgstr "Hautatutako lehen pista"
+
+#: src/hb-backend.c:69
+msgid "Foreign Audio, then First Selected Track"
+msgstr "Kanpoko audioa, gero hautatutako lehen pista"
+
+#: src/hb-backend.c:91 src/queuehandler.c:162
+msgid "Chapters:"
+msgstr "Kapituluak:"
+
+#: src/hb-backend.c:92
+msgid "Seconds:"
+msgstr "Segundoak:"
+
+#: src/hb-backend.c:93 src/queuehandler.c:183
+msgid "Frames:"
+msgstr "Fotogramak:"
+
+#: src/hb-backend.c:103
+msgid "Do Nothing"
+msgstr "Ez egin ezer"
+
+#: src/hb-backend.c:104
+msgid "Quit Handbrake"
+msgstr "Irten Handbraketik"
+
+#: src/hb-backend.c:105
+msgid "Put Computer To Sleep"
+msgstr "Ordenagailua lotara eraman"
+
+#: src/hb-backend.c:106
+msgid "Shutdown Computer"
+msgstr "Ordenagailua itzali"
+
+#: src/hb-backend.c:118 src/hb-backend.c:220 src/hb-backend.c:251
+#: src/hb-backend.c:265 src/hb-backend.c:376
+msgid "Custom"
+msgstr "Pertsonalizatua"
+
+#: src/hb-backend.c:154
+msgid "Week"
+msgstr "Astea"
+
+#: src/hb-backend.c:155
+msgid "Month"
+msgstr "Hilabetea"
+
+#: src/hb-backend.c:156
+msgid "Year"
+msgstr "Urtea"
+
+#: src/hb-backend.c:157
+msgid "Immortal"
+msgstr "Hilezkorra"
+
+#: src/hb-backend.c:181 src/hb-backend.c:4861
+msgid "Decomb"
+msgstr "Decomb"
+
+#: src/hb-backend.c:182
+msgid "Yadif"
+msgstr "Yadif"
+
+#: src/hb-backend.c:183
+msgid "Bwdif"
+msgstr "Bwdif"
+
+#: src/hb-backend.c:194
+msgid "NLMeans"
+msgstr "NLMeans"
+
+#: src/hb-backend.c:195
+msgid "HQDN3D"
+msgstr "HQDN3D"
+
+#: src/hb-backend.c:206
+msgid "Unsharp"
+msgstr "Zorroztu gabe"
+
+#: src/hb-backend.c:207
+msgid "Lapsharp"
+msgstr "Lapsharp"
+
+#: src/hb-backend.c:218
+msgid "Conservative"
+msgstr "Kontserbadorea"
+
+#: src/hb-backend.c:231
+msgid "90°"
+msgstr "90°"
+
+#: src/hb-backend.c:232
+msgid "180°"
+msgstr "180°"
+
+#: src/hb-backend.c:233
+msgid "270°"
+msgstr "270°"
+
+#: src/hb-backend.c:243
+msgid "4320p 8K Ultra HD"
+msgstr "4320p 8K Ultra HD"
+
+#: src/hb-backend.c:244
+msgid "2160p 4K Ultra HD"
+msgstr "2160p 4K Ultra HD"
+
+#: src/hb-backend.c:245
+msgid "1440p 2.5K Quad HD"
+msgstr "1440p 2.5K Quad HD"
+
+#: src/hb-backend.c:246
+msgid "1080p Full HD"
+msgstr "1080p Full HD"
+
+#: src/hb-backend.c:247
+msgid "720p HD"
+msgstr "720p HD"
+
+#: src/hb-backend.c:248
+msgid "576p PAL"
+msgstr "576p PAL"
+
+#: src/hb-backend.c:249
+msgid "480p NTSC"
+msgstr "480p NTSC"
+
+#: src/hb-backend.c:262
+msgid "Height (Letterbox)"
+msgstr "Altuera (Postontzia)"
+
+#: src/hb-backend.c:263
+msgid "Width (Pillarbox)"
+msgstr "Zabalera (Pillarbox)"
+
+#: src/hb-backend.c:264
+msgid "Width &amp; Height"
+msgstr "Zabalera eta Altuera"
+
+#: src/hb-backend.c:275
+msgid "Black"
+msgstr "Beltza"
+
+#: src/hb-backend.c:276
+msgid "Dark Gray"
+msgstr "Gris iluna"
+
+#: src/hb-backend.c:277
+msgid "Gray"
+msgstr "Grisa"
+
+#: src/hb-backend.c:278
+msgid "White"
+msgstr "Zuria"
+
+#: src/hb-backend.c:289
+msgid "Spatial"
+msgstr "Espaziala"
+
+#: src/hb-backend.c:290
+msgid "Temporal"
+msgstr "Tenporala"
+
+#: src/hb-backend.c:302
+msgid "Fast"
+msgstr "Azkarra"
+
+#: src/hb-backend.c:303
+msgid "Optimal"
+msgstr "Optimoa"
+
+#: src/hb-backend.c:314
+msgid "Strict"
+msgstr "Zorrotza"
+
+#: src/hb-backend.c:315
+msgid "Normal"
+msgstr "Normala"
+
+#: src/hb-backend.c:326
+msgid "Simple"
+msgstr "Sinplea"
+
+#: src/hb-backend.c:327
+msgid "Smart"
+msgstr "Adimentsua"
+
+#: src/hb-backend.c:337
+msgid "Diamond"
+msgstr "Diamantea"
+
+#: src/hb-backend.c:338
+msgid "Hexagon"
+msgstr "Hexagonoa"
+
+#: src/hb-backend.c:339
+msgid "Uneven Multi-Hexagon"
+msgstr "Hexagono anitz irregularra"
+
+#: src/hb-backend.c:340
+msgid "Exhaustive"
+msgstr "Sakona"
+
+#: src/hb-backend.c:341
+msgid "Hadamard Exhaustive"
+msgstr "Hadamard sakona"
+
+#: src/hb-backend.c:351
+msgid "0: SAD, no subpel"
+msgstr "0: SAD, subpel gabe"
+
+#: src/hb-backend.c:352
+msgid "1: SAD, qpel"
+msgstr "1: SAD, qpel"
+
+#: src/hb-backend.c:353
+msgid "2: SATD, qpel"
+msgstr "2: SATD, qpel"
+
+#: src/hb-backend.c:354
+msgid "3: SATD: multi-qpel"
+msgstr "3: SATD: multi-qpel"
+
+#: src/hb-backend.c:355
+msgid "4: SATD, qpel on all"
+msgstr "4: SATD, qpel guztietan"
+
+#: src/hb-backend.c:356
+msgid "5: SATD, multi-qpel on all"
+msgstr "5: SATD, multi-qpel guztietan"
+
+#: src/hb-backend.c:357
+msgid "6: RD in I/P-frames"
+msgstr "6: RD I/P-fotogrametan"
+
+#: src/hb-backend.c:358
+msgid "7: RD in all frames"
+msgstr "7: RD fotograma guztietan"
+
+#: src/hb-backend.c:359
+msgid "8: RD refine in I/P-frames"
+msgstr "8: RD findu I/P fotogrametan"
+
+#: src/hb-backend.c:360
+msgid "9: RD refine in all frames"
+msgstr "9: RD findu fotograma guztietan"
+
+#: src/hb-backend.c:361
+msgid "10: QPRD in all frames"
+msgstr "10: QPRD fotograma guztietan"
+
+#: src/hb-backend.c:362
+msgid "11: No early terminations in analysis"
+msgstr "11: Ez dago amaiera goiztiarrik analisian"
+
+#: src/hb-backend.c:372
+msgid "Most"
+msgstr "Gehienak"
+
+#: src/hb-backend.c:374
+msgid "Some"
+msgstr "Batzuk"
+
+#: src/hb-backend.c:375
+msgid "All"
+msgstr "Guztiak"
+
+#: src/hb-backend.c:387
+msgid "Encode only"
+msgstr "Kodetu soilik"
+
+#: src/hb-backend.c:388
+msgid "Always"
+msgstr "Beti"
+
+#: src/hb-backend.c:1476 src/hb-backend.c:1536 src/hb-backend.c:1615
+msgid "Same as source"
+msgstr "Iturburuaren berdina"
+
+#: src/hb-backend.c:1629
+msgid "(NTSC Film)"
+msgstr "(NTSC filma)"
+
+#: src/hb-backend.c:1633
+msgid "(PAL Film/Video)"
+msgstr "(PAL filma/bideoa)"
+
+#: src/hb-backend.c:1637
+msgid "(NTSC Video)"
+msgstr "(NTSC bideoa)"
+
+#: src/hb-backend.c:2205
+#, c-format
+msgid "%s - (%05d.MPLS)"
+msgstr "%s - (%05d.MPLS)"
+
+#: src/hb-backend.c:2356
+#, c-format
+msgid "%3d - %02dh%02dm%02ds - %s"
+msgstr "%3d - %02do%02dm%02ds - %s"
+
+#: src/hb-backend.c:2375
+#, c-format
+msgid "%3d - %02dh%02dm%02ds - (%05d.MPLS)"
+msgstr "%3d - %02do%02dm%02ds - (%05d.MPLS)"
+
+#: src/hb-backend.c:2381
+#, c-format
+msgid "%3d - (%05d.MPLS)"
+msgstr "%3d - (%05d.MPLS)"
+
+#: src/hb-backend.c:2387
+#, c-format
+msgid "%3d - %02dh%02dm%02ds"
+msgstr "%3d - %02do%02dm%02ds"
+
+#: src/hb-backend.c:2420
+msgid "No Titles"
+msgstr "Titulurik ez"
+
+#. No audio. set some default
+#: src/hb-backend.c:2700
+msgid "No Audio"
+msgstr "Audiorik gabe"
+
+#: src/hb-backend.c:4303 src/hb-backend.c:4311
+msgid "Invalid Detelecine Settings"
+msgstr ""
+
+#: src/hb-backend.c:4306 src/hb-backend.c:4337 src/hb-backend.c:4373
+#: src/hb-backend.c:4410 src/hb-backend.c:4435
+msgid "Custom:"
+msgstr ""
+
+#: src/hb-backend.c:4334 src/hb-backend.c:4342
+msgid "Invalid Comb Detect Settings"
+msgstr ""
+
+#: src/hb-backend.c:4369 src/hb-backend.c:4378
+msgid "Invalid Deinterlace Settings"
+msgstr ""
+
+#: src/hb-backend.c:4371 src/hb-backend.c:4380 src/hb-backend.c:4407
+#: src/hb-backend.c:4432
+msgid "Filter:"
+msgstr "Iragazkia:"
+
+#: src/hb-backend.c:4405
+msgid "Invalid Denoise Settings"
+msgstr ""
+
+#: src/hb-backend.c:4430
+msgid "Invalid Sharpen Settings"
+msgstr ""
+
+#. mp4/theora combination is not supported.
+#: src/hb-backend.c:4459
+msgid ""
+"Theora is not supported in the MP4 container.\n"
+"\n"
+"You should choose a different video codec or container.\n"
+"If you continue, FFMPEG will be chosen for you."
+msgstr ""
+"Theora ez da MP4 edukiontzian onartzen.\n"
+"\n"
+"Beste bideo kodek edo edukiontzi bat aukeratu beharko zenuke.\n"
+"Jarraitzen baduzu, FFMPEG aukeratuko da."
+
+#. webm only supports vp8, vp9 and av1.
+#: src/hb-backend.c:4468
+msgid ""
+"Only VP8, VP9 and AV1 is supported in the WebM container.\n"
+"\n"
+"You should choose a different video codec or container.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"WebM edukiontzian VP8, VP9 eta AV1 bakarrik onartzen dira.\n"
+"\n"
+"Beste bideo kodek edo edukiontzi bat aukeratu beharko zenuke.\n"
+"Jarraitzen baduzu, bat aukeratuko da zuretzat."
+
+#: src/hb-backend.c:4476 src/hb-backend.c:4527 src/hb-backend.c:4544
+#: src/hb-backend.c:4561 src/hb-backend.c:4618 src/hb-backend.c:4670
+msgid "Continue"
+msgstr "Jarraitu"
+
+#: src/hb-backend.c:4477
+msgid "Invalid Video Codec"
+msgstr "Bideo kodek baliogabea"
+
+#. No valid title, stop right there
+#: src/hb-backend.c:4500 src/hb-backend.c:4586
+msgid "No title found.\n"
+msgstr "Ez da titulurik aurkitu.\n"
+
+#: src/hb-backend.c:4527 src/hb-backend.c:4544
+msgid "Invalid Subtitle Selection"
+msgstr "Azpitituluen hautaketa baliogabea"
+
+#: src/hb-backend.c:4528
+msgid ""
+"Only one subtitle may be burned into the video.\n"
+"\n"
+"You should change your subtitle selections.\n"
+"If you continue, some subtitles will be lost."
+msgstr ""
+"Bideoan azpititulu bakarra erre daiteke.\n"
+"\n"
+"Azpitituluen aukeraketa aldatu beharko zenuke.\n"
+"Jarraitzen baduzu, azpititulu batzuk galdu egingo dira."
+
+#: src/hb-backend.c:4545
+msgid ""
+"WebM in HandBrake only supports burned subtitles.\n"
+"\n"
+"You should change your subtitle selections.\n"
+"If you continue, some subtitles will be lost."
+msgstr ""
+"HandBrake-n WebM formatuak erretako azpitituluak soilik onartzen ditu.\n"
+"\n"
+"Azpitituluen aukeraketa aldatu beharko zenuke.\n"
+"Jarraitzen baduzu, azpititulu batzuk galdu egingo dira."
+
+#: src/hb-backend.c:4561
+msgid "Subtitle File Not Found"
+msgstr "Azpitituluen fitxategia ez da aurkitu"
+
+#: src/hb-backend.c:4562
+msgid ""
+"SRT file does not exist or not a regular file.\n"
+"\n"
+"You should choose a valid file.\n"
+"If you continue, this subtitle will be ignored."
+msgstr ""
+"SRT fitxategia ez da existitzen edo ez da fitxategi normal bat.\n"
+"\n"
+"Balio duen fitxategi bat aukeratu behar duzu.\n"
+"Jarraitzen baduzu, azpititulu hau ez da kontuan hartuko."
+
+#: src/hb-backend.c:4618 src/hb-backend.c:4670
+msgid "Invalid Audio Selection"
+msgstr ""
+
+#: src/hb-backend.c:4619
+msgid ""
+"The source does not support Pass-Thru.\n"
+"\n"
+"You should choose a different audio codec.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"Iturburuak ez du Pass-Thru onartzen.\n"
+"\n"
+"Beste audio kodek bat aukeratu beharko zenuke.\n"
+"Jarraitzen baduzu, bat aukeratuko da zuretzat."
+
+#: src/hb-backend.c:4671
+#, c-format
+msgid ""
+"%s is not supported in the %s container.\n"
+"\n"
+"You should choose a different audio codec.\n"
+"If you continue, one will be chosen for you."
+msgstr ""
+"%s ez da %s edukiontzian onartzen.\n"
+"\n"
+"Beste audio kodek bat aukeratu beharko zenuke.\n"
+"Jarraitzen baduzu, bat aukeratuko da zuretzat."
+
+#: src/hb-backend.c:4853
+msgid "Comb Detect"
+msgstr "Comb detekzioa"
+
+#: src/hb-backend.c:4855
+msgid "Detelecine"
+msgstr "Detelecine"
+
+#: src/hb-backend.c:4857
+msgid "Deinterlace (Yadif)"
+msgstr "Desentrelazatua (Yadif)"
+
+#: src/hb-backend.c:4859
+msgid "Deinterlace (Bwdif)"
+msgstr "Desentrelazatua (Bwdif)"
+
+#: src/hb-backend.c:4863
+msgid "Deblock"
+msgstr "Desbloketu"
+
+#: src/hb-backend.c:4865
+msgid "Denoise (NLMeans)"
+msgstr "Denoise (NLMeans)"
+
+#: src/hb-backend.c:4867
+msgid "Denoise (HQDN3D)"
+msgstr "Denoise (HQDN3D)"
+
+#: src/hb-backend.c:4869
+msgid "Chroma Smooth"
+msgstr "Kroma leuna"
+
+#: src/hb-backend.c:4871
+msgid "Sharpen (Unsharp)"
+msgstr "Zorroztea (zorroztu gabe)"
+
+#: src/hb-backend.c:4873
+msgid "Rotate"
+msgstr "Biratu"
+
+#: src/hb-backend.c:4875
+msgid "Sharpen (lapsharp)"
+msgstr "Zorroztea (lapsharp)"
+
+#: src/hb-backend.c:4879
+msgid "Colorspace"
+msgstr "Kolore-espazioa"
+
+#: src/notifications.c:54
+#, c-format
+msgid "%d item complete, %d failed"
+msgid_plural "%d items complete, %d failed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/notifications.c:60
+#, c-format
+msgid "%d item has finished encoding"
+msgid_plural "%d items have finished encoding"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/notifications.c:106
+msgid "Put down that cocktail…"
+msgstr ""
+
+#: src/notifications.c:116
+msgid "Encode Complete"
+msgstr "Kodetzea osatu da"
+
+#: src/notifications.c:116
+msgid "Encode Failed"
+msgstr "Kodetzeak huts egin du"
+
+#: src/notifications.c:140
+msgid "Battery level is low."
+msgstr "Bateria maila baxua da."
+
+#: src/notifications.c:143
+msgid "Charger has been disconnected."
+msgstr "Kargagailua deskonektatu da."
+
+#: src/notifications.c:146
+msgid "Power Saver mode has been activated."
+msgstr "Bateria-aurrezle modua aktibatu da"
+
+#: src/notifications.c:153
+#, c-format
+msgid "%d.%d GB free space remaining."
+msgstr "%d.%d GB geratzen dira libre."
+
+#: src/notifications.c:165 src/queuehandler.c:1171
+msgid "Encoding Paused"
+msgstr "Kodetzea pausatua"
+
+#: src/presets.c:52
+msgid "My Presets"
+msgstr ""
+
+#: src/presets.c:87
+msgid "Preset Name"
+msgstr "Aurrezarpenaren izena"
+
+#: src/presets.c:1299
+msgid "ghb_presets_menu_init: Failed to find presets folder."
+msgstr "ghb_presets_menu_init: Ezin izan da aurrezarpenen karpeta aurkitu."
+
+#: src/presets.c:1455
+msgid "Failed to find parent folder when adding child."
+msgstr "Ezin izan da karpeta nagusia aurkitu azpikarpeta gehitzean."
+
+#: src/presets.c:1942
+msgid "Load backup presets"
+msgstr "Kargatu gordetako aurrezarpenak"
+
+#: src/presets.c:1942
+msgid "Get me out of here!"
+msgstr "Atera nazazue hemendik!"
+
+#: src/presets.c:1943
+msgid ""
+"Presets found are newer than what is supported by this version of HandBrake!\n"
+"\n"
+"Would you like to continue?"
+msgstr ""
+"Aurkitutako aurrezarpenak HandBrake-ren bertsio honek onartzen duena baino berriagoak dira!\n"
+"\n"
+"Jarraitu nahi duzu?"
+
+#: src/presets.c:2123 src/presets.c:2505 src/title-add.c:124
+#: src/title-add.c:134
+msgid "Overwrite"
+msgstr "Gainidatzi"
+
+#: src/presets.c:2124 src/presets.c:2506
+msgid "Overwrite Preset?"
+msgstr ""
+
+#: src/presets.c:2125 src/presets.c:2507
+#, c-format
+msgid "The preset “%s” already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: src/presets.c:2214
+msgid "Import Preset"
+msgstr "Inportatu aurrezarpena"
+
+#: src/presets.c:2220
+msgid "Presets (*.json)"
+msgstr "Aurrezarpenak (*.json)"
+
+#: src/presets.c:2329
+msgid "Export Preset"
+msgstr "Esportatu aurrezarpena"
+
+#: src/presets.c:2730
+msgid "_Delete"
+msgstr "_Ezabatu"
+
+#: src/presets.c:2731
+msgid "Delete Folder?"
+msgstr "Karpeta ezabatu?"
+
+#: src/presets.c:2731
+msgid "Delete Preset?"
+msgstr "Aurrezarpena ezabatu?"
+
+#: src/presets.c:2732
+#, c-format
+msgid ""
+"Are you sure you want to delete “%s”?\n"
+"Deleted items cannot be recovered."
+msgstr ""
+"Ziur “%s” ezabatu nahi duzula?\n"
+"Ezabatutako elementuak ezingo dira berreskuratu."
+
+#: src/preview.c:154
+msgid "Pause Preview"
+msgstr "Aurrebista pausatu"
+
+#: src/preview.c:158
+msgid "Stop Encoding Preview"
+msgstr ""
+
+#: src/preview.c:162
+msgid "Play Preview"
+msgstr "Aurrebista erreproduzitu"
+
+#: src/preview.c:288
+msgid "Playback Error"
+msgstr "Erreprodukzio errorea"
+
+#: src/preview.c:291
+msgid "The video could not be played. For more details, see the Activity Log."
+msgstr ""
+
+#: src/queuehandler.c:128
+#, c-format
+msgid "%s (Modified)"
+msgstr "%s (aldatua)"
+
+#: src/queuehandler.c:176
+msgid "Time:"
+msgstr "Denbora:"
+
+#: src/queuehandler.c:220
+msgid "Align A/V"
+msgstr "Lerrokatu A/V"
+
+#: src/queuehandler.c:230
+msgid "iPod 5G"
+msgstr "iPod 5G"
+
+#: src/queuehandler.c:262
+#, c-format
+msgid ""
+"%d:%d:%d:%d Crop\n"
+"%dx%d storage, %dx%d display\n"
+"%d:%d Pixel Aspect Ratio\n"
+"%s Display Aspect Ratio"
+msgstr ""
+"%d:%d:%d:%d mozketa\n"
+"%dx%d biltegiratzean, %dx%d bistaratzean\n"
+"%d:%d pixelen aspektu-erlazioa\n"
+"%s bistaratze aspektu-erlazioa"
+
+#: src/queuehandler.c:291
+#, c-format
+msgid "%s, Bitrate %dkbps"
+msgstr "%s, Bit-tasa %dkbps"
+
+#: src/queuehandler.c:297
+#, c-format
+msgid "%s, Constant Quality %.4g(%s)"
+msgstr "%s, Kalitate konstantea %.4g(%s)"
+
+#: src/queuehandler.c:304
+#, c-format
+msgid " (Multi Pass)"
+msgstr ""
+
+#: src/queuehandler.c:336
+#, c-format
+msgid "%sPreset %s"
+msgstr "%sAurrezarpena %s"
+
+#: src/queuehandler.c:341
+#, c-format
+msgid "%sTune %s"
+msgstr "%sTonua %s"
+
+#: src/queuehandler.c:346
+#, c-format
+msgid "%sProfile %s"
+msgstr "%sProfila %s"
+
+#: src/queuehandler.c:351
+#, c-format
+msgid "%sLevel %s"
+msgstr "%sMaila %s"
+
+#: src/queuehandler.c:368
+#, c-format
+msgid ""
+"\n"
+"Constant Framerate %s fps"
+msgstr ""
+"\n"
+"Fotograma-tasa konstantea %s fps"
+
+#: src/queuehandler.c:372
+#, c-format
+msgid ""
+"\n"
+"Peak Framerate %s fps (may be lower)"
+msgstr ""
+"\n"
+"Gehienezko fotograma-tasa %s fps (baxuagoa izan daiteke)"
+
+#: src/queuehandler.c:377
+#, c-format
+msgid ""
+"\n"
+"Variable Framerate %s fps"
+msgstr ""
+"\n"
+"Fotograma-tasa aldakorra %s fps"
+
+#: src/queuehandler.c:545
+msgid "kbps"
+msgstr "kbps"
+
+#: src/queuehandler.c:679 src/queuehandler.c:704
+msgid "Pending"
+msgstr "Zain"
+
+#: src/queuehandler.c:691 src/queuehandler.c:1182
+msgid "Completed"
+msgstr "Osatua"
+
+#: src/queuehandler.c:695 src/queuehandler.c:1186
+msgid "Canceled"
+msgstr "Bertan behera utzia"
+
+#: src/queuehandler.c:699 src/queuehandler.c:1190
+msgid "Failed"
+msgstr "Huts egin du"
+
+#: src/queuehandler.c:740 src/queuehandler.c:768 src/queuehandler.c:1230
+#: src/queuehandler.c:1258
+#, c-format
+msgid "%d Day %02d:%02d:%02d"
+msgstr "%d egun %02d:%02d:%02d"
+
+#: src/queuehandler.c:743 src/queuehandler.c:771 src/queuehandler.c:1233
+#: src/queuehandler.c:1261
+#, c-format
+msgid "%d Days %02d:%02d:%02d"
+msgstr "%d egun %02d:%02d:%02d"
+
+#: src/queuehandler.c:784 src/queuehandler.c:1274
+msgid "B"
+msgstr "B"
+
+#: src/queuehandler.c:788 src/queuehandler.c:1278
+msgid "KB"
+msgstr "KB"
+
+#: src/queuehandler.c:793 src/queuehandler.c:1283
+msgid "MB"
+msgstr "MB"
+
+#: src/queuehandler.c:809 src/queuehandler.c:1299
+msgid "Not Available"
+msgstr "Ez dago erabilgarri"
+
+#: src/queuehandler.c:1134
+msgid "Foreign Audio Search"
+msgstr "Kanpoko audioa bilatu"
+
+#: src/queuehandler.c:1138
+msgid "Encode"
+msgstr "Kodetu"
+
+#: src/queuehandler.c:1142
+msgid "Encode Analysis Pass"
+msgstr "Kodetu analisi itzulia"
+
+#: src/queuehandler.c:1146
+msgid "Encode Final Pass"
+msgstr "Kodetu azken itzulia"
+
+#. Should never happen
+#: src/queuehandler.c:1151
+msgid "Error"
+msgstr "Errorea"
+
+#: src/queuehandler.c:1155
+#, c-format
+msgid ""
+"pass %d of %d\n"
+"%s"
+msgstr ""
+"%d. itzulia %d-tik\n"
+"%s"
+
+#: src/queuehandler.c:1167
+msgid "Scanning Title"
+msgstr "Titulua eskaneatzen"
+
+#: src/queuehandler.c:1175
+msgid "Encoding In Progress"
+msgstr "Kodetzea abian"
+
+#. Should never happen
+#: src/queuehandler.c:1195
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: src/queuehandler.c:1383
+msgid "Export Queue"
+msgstr "Esportatu ilara"
+
+#: src/queuehandler.c:1466
+msgid "Import Queue"
+msgstr "Inportatu ilara"
+
+#: src/queuehandler.c:1617
+msgid "Low Disk Space: Encoding Paused"
+msgstr "Leku gutxi diskoan: kodetzea pausatu da"
+
+#: src/queuehandler.c:1619
+#, c-format
+msgid ""
+"The destination filesystem is almost full: %<PRId64> MB free.\n"
+"Destination: %s\n"
+"Encode may be incomplete if you proceed."
+msgstr ""
+
+#: src/queuehandler.c:1624
+msgid "Resume, I've fixed the problem"
+msgstr "Jarraitu. Konpondu dut arazoa"
+
+#: src/queuehandler.c:1625
+msgid "Resume, Don't tell me again"
+msgstr "Jarraitu. Ez abisatu berriro"
+
+#: src/queuehandler.c:1694
+msgid "Remove Item in Progress?"
+msgstr ""
+
+#: src/queuehandler.c:1696
+msgid "Cancel and Remove"
+msgstr "Utzi eta kendu"
+
+#: src/queuehandler.c:1836 src/queuehandler.c:1849
+msgid "Stop"
+msgstr "Gelditu"
+
+#: src/queuehandler.c:1837 src/queuehandler.c:1850
+msgid "Stop Encoding"
+msgstr "Gelditu"
+
+#: src/queuehandler.c:1862
+msgid "S_top Encoding"
+msgstr "_Gelditu"
+
+#: src/queuehandler.c:1880 src/queuehandler.c:1893
+msgid "Resume"
+msgstr "Jarraitu"
+
+#: src/queuehandler.c:1881 src/queuehandler.c:1894
+msgid "Resume Encoding"
+msgstr "Jarraitu kodetzen"
+
+#: src/queuehandler.c:1905
+msgid "_Resume Encoding"
+msgstr "_Jarraitu kodetzen"
+
+#: src/subtitlehandler.c:107
+#, c-format
+msgid "Offset: %dms"
+msgstr "Desplazamendua: %dms"
+
+#: src/subtitlehandler.c:112
+msgid "Burned Into Video"
+msgstr "Bideoan erreta"
+
+#: src/subtitlehandler.c:113
+msgid "Passthru"
+msgstr ""
+
+#: src/subtitlehandler.c:116
+msgid "Forced Subtitles Only"
+msgstr "Behartutako azpitituluak soilik"
+
+#: src/subtitlehandler.c:120
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: src/subtitlehandler.c:1230
+msgid "Add Subtitles"
+msgstr "Gehitu azpitituluak"
+
+#: src/subtitlehandler.c:1448
+#, c-format
+msgid "Preferred Language: %s"
+msgstr "Lehenetsitako hizkuntza: %s"
+
+#: src/subtitlehandler.c:1461
+#, c-format
+msgid "Add %s subtitle track if default audio is not %s"
+msgstr "Gehitu azpitituluen %s pista audio lehenetsia %s ez bada"
+
+#: src/subtitlehandler.c:1466
+#, c-format
+msgid "Add subtitle track if default audio is not your preferred language"
+msgstr ""
+"Gehitu azpitituluen pista audio lehenetsia zure hizkuntza hobetsia ez bada"
+
+#: src/subtitlehandler.c:1806
+msgid "Edit Subtitles"
+msgstr "Editatu azpitituluak"
+
+#: src/title-add.c:103 src/title-add.c:112
+msgid "Invalid Destination"
+msgstr "Helmuga baliogabea"
+
+#: src/title-add.c:104
+#, c-format
+msgid "“%s” is is not a valid directory."
+msgstr ""
+
+#: src/title-add.c:113
+#, c-format
+msgid "“%s” is not a writable directory."
+msgstr "“%s” direktorioak ez du balio."
+
+#: src/title-add.c:124 src/title-add.c:134
+msgid "Overwrite File?"
+msgstr "Fitxategia gainidatzi?"
+
+#: src/title-add.c:125
+#, c-format
+msgid ""
+"The file “%s” already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+
+#: src/title-add.c:135
+#, c-format
+msgid ""
+"Destination: %s\n"
+"\n"
+"Another queued job has specified the same destination.\n"
+"Do you want to overwrite?"
+msgstr ""
+"Helmuga: %s\n"
+"\n"
+"Ilaran dagoen beste lan batek helmuga bera zehaztu du.\n"
+"Gainidatzi nahi duzu?"
+
+#: src/title-add.c:346
+msgid ""
+"Duplicate destination files detected. Duplicates will not be added to the "
+"queue."
+msgstr ""
+
+#: src/title-add.c:439
+msgid "Select this title for adding to the queue.\n"
+msgstr "Hautatu titulu hau ilaran gehitzeko.\n"
+
+#. Title label
+#: src/title-add.c:447
+msgid "No Title"
+msgstr "Titulurik ez"
+
+#: src/title-add.c:457
+msgid ""
+"There is another title with the same destination file name.\n"
+"This title will not be added to the queue unless you change\n"
+"the output file name.\n"
+msgstr ""
+"Helmuga fitxategi izen bera duen beste titulu bat dago.\n"
+"Izenburu hau ez da ilaran gehituko\n"
+"irteerako fitxategiaren izena aldatzen ez bada.\n"
+
+#: src/title-add.c:826
+msgid "OK"
+msgstr "Ados"
+
+#: src/title-add.c:826
+msgid "Cannot Add Titles"
+msgstr "Ezin dira tituluak gehitu"
+
+#: src/title-add.c:827
+msgid ""
+"The filenames are not unique. Please choose\n"
+"a unique destination filename for each title."
+msgstr ""
+"Fitxategi-izenak ez dira bakarrak. Mesedez, aukeratu\n"
+"helmuga fitxategi-izen bakarra izenburu bakoitzarentzat."
+
+#: src/videohandler.c:154
+msgid "Additional advanced arguments that can be passed to the video encoder."
+msgstr ""
+
+#: src/videohandler.c:227
+msgid "The full list of encoder parameters:"
+msgstr "Kodetze parametroen zerrenda osoa:"
+
+#: src/videohandler.c:345
+msgid "Warning: lossless"
+msgstr "Kontuz: galera gabea"
+
+#: data/fr.handbrake.ghb.desktop.in:4
+msgid "Media Transcoder"
+msgstr "Multimedia transkodetzailea"
+
+#: data/fr.handbrake.ghb.desktop.in:5
+msgid "Transcodes DVD, Blu-ray, and other media"
+msgstr "DVD, Blu-ray eta beste euskarri batzuk transkodetzen ditu"
+
+#: data/fr.handbrake.ghb.desktop.in:11
+msgid "Format Converter;Video Encoder;"
+msgstr "Formatu Bihurtzailea; Bideo-kodetzailea;"

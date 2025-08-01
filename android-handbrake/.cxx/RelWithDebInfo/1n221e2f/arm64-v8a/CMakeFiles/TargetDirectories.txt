@@ -1,0 +1,4 @@
+/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/arm64-v8a/CMakeFiles/handbrake-core.dir
+/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/arm64-v8a/CMakeFiles/handbrake-android.dir
+/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/.cxx/RelWithDebInfo/1n221e2f/arm64-v8a/CMakeFiles/rebuild_cache.dir

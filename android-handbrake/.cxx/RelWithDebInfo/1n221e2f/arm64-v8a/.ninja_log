@@ -1,0 +1,6 @@
+# ninja log v5
+1	334	1754045458283879418	CMakeFiles/handbrake-core.dir/handbrake-source/colormap.c.o	a9c9f55a16a8fb95
+0	337	1754045458288342325	CMakeFiles/handbrake-core.dir/handbrake-source/lang.c.o	d14b5d63d2248c5f
+1	601	1754045625766627000	libhandbrake-core.a	597830a2bf1ca22c
+1	299	1754045625457157343	CMakeFiles/handbrake-android.dir/jni/handbrake_bridge_minimal.cpp.o	13deae4502e61825
+1	523	1754045625671271545	CMakeFiles/handbrake-android.dir/jni/handbrake_jni.cpp.o	de6b829cba7d6f3b
