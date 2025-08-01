@@ -100,7 +100,7 @@ Java_com_handbrake_core_HandBrakeCore_nativeGetTitleInfo(JNIEnv *env, jobject th
 // Get available presets
 JNIEXPORT jstring JNICALL
 Java_com_handbrake_core_HandBrakeCore_nativeGetPresets(JNIEnv *env, jobject thiz) {
-    const char* presets = handbrake_get_presets_json();
+    const char* presets = handbrake_get_available_presets_json();
     return env->NewStringUTF(presets ? presets : "[]");
 }
 
@@ -111,7 +111,7 @@ Java_com_handbrake_core_HandBrakeCore_nativeApplyPreset(JNIEnv *env, jobject thi
     const char* preset = env->GetStringUTFChars(preset_name, NULL);
     const char* title = env->GetStringUTFChars(title_json, NULL);
     
-    const char* job = handbrake_apply_preset(preset, title);
+    const char* job = handbrake_apply_preset_to_title(preset, title);
     jstring result = env->NewStringUTF(job ? job : "{}");
     
     env->ReleaseStringUTFChars(preset_name, preset);

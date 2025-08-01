@@ -4,3 +4,6 @@
 1	601	1754045625766627000	libhandbrake-core.a	597830a2bf1ca22c
 1	299	1754045625457157343	CMakeFiles/handbrake-android.dir/jni/handbrake_bridge_minimal.cpp.o	13deae4502e61825
 1	523	1754045625671271545	CMakeFiles/handbrake-android.dir/jni/handbrake_jni.cpp.o	de6b829cba7d6f3b
+1	223	1754045895861878863	CMakeFiles/handbrake-android.dir/jni/handbrake_bridge_minimal.cpp.o	13deae4502e61825
+1	301	1754045895947582728	CMakeFiles/handbrake-android.dir/jni/handbrake_jni.cpp.o	de6b829cba7d6f3b
+301	599	1754045896246425371	/Users/truong.nguyen3/Documents/_work_samples/HandBrake/android-handbrake/build/intermediates/cxx/RelWithDebInfo/1n221e2f/obj/arm64-v8a/libhandbrake-android.so	8c5290f6f6be07ff

@@ -110,12 +110,7 @@ void handbrake_set_log_callback(void (*callback)(const char* message));
 /**
  * Additional functions for JNI compatibility
  */
-int handbrake_scan(void* handle, const char* input_path, int title_index);
-int handbrake_get_scan_progress(void* handle);
-int handbrake_get_title_count(void* handle);
-char* handbrake_get_state_json(void* handle);
 char* handbrake_get_presets_json(void* handle);
-int handbrake_apply_preset(void* handle, const char* preset_name);
 
 #ifdef __cplusplus
 }
