@@ -43,3 +43,15 @@ gtk/missing
 gtk/po/Makevars.template
 gtk/po/*.gmo
 gtk/po/*~
+# Exclude large prebuilt libraries (can be rebuilt with build scripts)
+android-handbrake/src/main/cpp/prebuilt/
+android-handbrake/downloads/
+android-handbrake/build/
+android-handbrake/.cxx/
+
+# Exclude other build artifacts
+*.aar
+*.so
+build/
+.gradle/
+local.properties
